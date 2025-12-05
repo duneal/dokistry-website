@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "christian-kohler.path-intellisense",
+    "dsznajder.es7-react-js-snippets",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "jock.svg",
+    "meganrogge.template-string-converter",
+    "mrmlnc.vscode-scss",
+    "steoates.autoimport",
+    "syler.sass-indented",
+    "yzhang.markdown-all-in-one",
+    "biomejs.biome",
+    "esbenp.prettier-vscode"
+  ]
+}
