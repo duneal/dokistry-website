@@ -52,7 +52,7 @@ export function CTA() {
 							<Button
 								size="lg"
 								variant="outline"
-								className="border-border/50 hover:bg-card font-medium px-8"
+								className="border-border/50 hover:bg-card dark:hover:text-white font-medium px-8"
 								asChild
 							>
 								<a

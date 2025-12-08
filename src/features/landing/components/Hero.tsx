@@ -38,9 +38,9 @@ export function Hero() {
 						transition={{ delay: 0.3 }}
 						className="font-grotesk text-5xl md:text-7xl font-bold mb-6 leading-tight"
 					>
-						Modern Docker Registry
+						Monitor Docker registries
 						<br />
-						<span className="text-primary">Management</span>
+						<span className="text-primary">with ease</span>
 					</motion.h1>
 
 					{/* Description */}
@@ -50,7 +50,8 @@ export function Hero() {
 						transition={{ delay: 0.4 }}
 						className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light"
 					>
-						Preview and manage Docker registries, images, and users from a single modern interface.
+						A single modern interface to monitor and manage your self&#8209;hosted Docker
+						registries, images, and users.
 					</motion.p>
 
 					{/* CTAs */}
@@ -79,7 +80,7 @@ export function Hero() {
 						<Button
 							size="lg"
 							variant="outline"
-							className="border-border/50 hover:bg-card font-medium px-8"
+							className="border-border/50 hover:bg-card dark:hover:text-white font-medium px-8"
 							asChild
 						>
 							<a href="#features">Explore Features</a>

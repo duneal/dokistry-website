@@ -1,12 +1,12 @@
-import type { Metadata, Viewport } from "next"
-import type { ReactNode } from "react"
 import { Toaster } from "@/app/_components/ui/sonner"
 import Layout from "@/app/(pages)/layout"
+import "@/app/globals.css"
+import type { Metadata, Viewport } from "next"
+import type { ReactNode } from "react"
 import { APP_URL } from "@/utils/constants/config"
 import { inter, spaceGrotesk } from "@/utils/fonts"
 import { ReactQueryProvider } from "@/utils/providers/ReactQueryProvider"
 import { ThemeProvider } from "@/utils/providers/ThemeProvider"
-import "@/app/globals.css"
 
 export const revalidate = 300 // 5 minutes
 
@@ -14,39 +14,39 @@ export async function generateMetadata(): Promise<Metadata> {
 	return {
 		metadataBase: new URL(APP_URL!),
 		title: {
-			default: "Dokistry - Modern Docker Registry Management",
+			default: "Manage your self-hosted Docker registries | Dokistry",
 			template: `%s | Dokistry`,
 		},
 		description:
-			"Preview and manage Docker registries, images, and users from a single modern interface.",
+			"Monitor and manage self-hosted Docker registries, images, and users from a single modern interface.",
 		robots: {
 			index: true,
 			follow: true,
 		},
 		openGraph: {
-			title: "Dokistry - Modern Docker Registry Management",
+			title: "Manage your self-hosted Docker registries | Dokistry",
 			description:
-				"Preview and manage Docker registries, images, and users from a single modern interface.",
+				"Monitor and manage self-hosted Docker registries, images, and users from a single modern interface.",
 			url: APP_URL || "",
 			type: "website",
 			siteName: "Dokistry",
 			images: [
 				{
-					url: "/images/og-image.png",
+					url: "/images/preview-dashboard.png",
 					width: 1200,
 					height: 630,
-					alt: "Dokistry - Docker Registry Management",
+					alt: "Manage your self-hosted Docker registries | Dokistry",
 				},
 			],
 		},
 		twitter: {
 			card: "summary_large_image",
-			title: "Dokistry - Modern Docker Registry Management",
+			title: "Manage your self-hosted Docker registries | Dokistry",
 			description:
-				"Preview and manage Docker registries, images, and users from a single modern interface.",
+				"Monitor and manage self-hosted Docker registries, images, and users from a single modern interface.",
 			images: {
 				url: "/images/og-image.png",
-				alt: "Dokistry - Docker Registry Management",
+				alt: "Manage your self-hosted Docker registries | Dokistry",
 			},
 		},
 	}

@@ -8,7 +8,7 @@ const features = [
 		icon: Container,
 		title: "Registry Management",
 		description:
-			"Preview and manage Docker registries with an intuitive interface. Connect multiple registries seamlessly.",
+			"Monitor and manage self-hosted Docker registries with an intuitive interface. Connect multiple registries seamlessly.",
 	},
 	{
 		icon: Eye,
@@ -57,7 +57,7 @@ export function Features() {
 				>
 					<h2 className="font-grotesk text-4xl md:text-5xl font-bold mb-4">Everything You Need</h2>
 					<p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-						Comprehensive Docker registry management in one powerful interface
+						Comprehensive Docker registry management in one clean interface
 					</p>
 				</motion.div>
 
