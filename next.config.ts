@@ -1,25 +1,15 @@
 import type { NextConfig } from "next"
 import createNextIntlPlugin from "next-intl/plugin"
 
-const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts")
+import { securityHeaders } from "@/utils/constants/next"
 
-const cspHeader = `
-  default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' https://umami.duneal.com;
-  style-src 'self' 'unsafe-inline';
-  img-src 'self' blob: data:;
-  font-src 'self' data:;
-  connect-src 'self' https://umami.duneal.com;
-  object-src 'none';
-  base-uri 'self';
-  form-action 'self';
-  frame-ancestors 'none';
-  upgrade-insecure-requests;
-`
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts")
 
 const nextConfig: NextConfig = {
 	reactStrictMode: true,
 	output: "standalone",
+	poweredByHeader: false,
+	compress: true,
 
 	images: {
 		dangerouslyAllowSVG: true,
@@ -30,10 +20,23 @@ const nextConfig: NextConfig = {
 		return [
 			{
 				source: "/(.*)",
+				headers: securityHeaders,
+			},
+			{
+				source: "/images/(.*)",
 				headers: [
 					{
-						key: "Content-Security-Policy",
-						value: cspHeader.replace(/\n/g, ""),
+						key: "Cache-Control",
+						value: "public, max-age=31536000, immutable",
+					},
+				],
+			},
+			{
+				source: "/favicons/(.*)",
+				headers: [
+					{
+						key: "Cache-Control",
+						value: "public, max-age=31536000, immutable",
 					},
 				],
 			},
@@ -60,4 +63,4 @@ const nextConfig: NextConfig = {
 	},
 }
 
-module.exports = withNextIntl(nextConfig)
+export default withNextIntl(nextConfig)
