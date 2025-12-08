@@ -13,7 +13,7 @@ export function Footer() {
 				<div className="flex flex-col md:flex-row justify-between items-center gap-6">
 					<a href="#" className="flex items-center">
 						<Image
-							src="/images/full_logo_white.svg"
+							src="/images/logo.svg"
 							alt="Dokistry"
 							width={120}
 							height={32}

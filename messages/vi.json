@@ -1,6 +1,6 @@
 {
 	"metadata": {
-		"title": "Quản lý Docker registry tự lưu trữ | Dokistry",
+		"title": "Dokistry - Quản lý Docker registry tự lưu trữ",
 		"description": "Giám sát và quản lý Docker registry tự lưu trữ, image và người dùng từ một giao diện hiện đại."
 	},
 	"nav": {

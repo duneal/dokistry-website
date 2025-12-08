@@ -1,6 +1,6 @@
 {
 	"metadata": {
-		"title": "セルフホスト Docker レジストリを管理 | Dokistry",
+		"title": "Dokistry - セルフホスト Docker レジストリを管理",
 		"description": "単一のモダンなインターフェースから、セルフホストの Docker レジストリ、イメージ、ユーザーを監視・管理できます。"
 	},
 	"nav": {

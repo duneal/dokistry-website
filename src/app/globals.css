@@ -46,129 +46,154 @@
 
 /* 
  * Dokistry Design System
- * Brand colors from logo:
- * - #174f4a (darkest)
- * - #257e77 (darker)  
- * - #32aea4 (dark) - logo text
- * - #51cdbe (primary) - logo icon
- * - #81dad3 (light)
- * - #b0e8e3 (lighter)
- * - #effaf9 (lightest)
+ * Steel Blue palette:
+ * --color-steel-blue-50: oklch(95.83% 0.010 247.93);
+ * --color-steel-blue-100: oklch(91.52% 0.021 254.92);
+ * --color-steel-blue-200: oklch(83.09% 0.044 252.68);
+ * --color-steel-blue-300: oklch(74.41% 0.067 253.63);
+ * --color-steel-blue-400: oklch(65.68% 0.093 254.16);
+ * --color-steel-blue-500: oklch(57.25% 0.116 254.20);
+ * --color-steel-blue-600: oklch(48.71% 0.098 254.64);
+ * --color-steel-blue-700: oklch(40.02% 0.076 254.32);
+ * --color-steel-blue-800: oklch(30.84% 0.055 253.56);
+ * --color-steel-blue-900: oklch(20.64% 0.030 255.34);
+ * --color-steel-blue-950: oklch(17.45% 0.022 251.93);
+
+	--color-steel-blue-50: #ecf2f8;
+	--color-steel-blue-100: #dae4f1;
+	--color-steel-blue-200: #b4cae4;
+	--color-steel-blue-300: #8fafd6;
+	--color-steel-blue-400: #6994c9;
+	--color-steel-blue-500: #447abb;
+	--color-steel-blue-600: #366196;
+	--color-steel-blue-700: #294970;
+	--color-steel-blue-800: #1b314b;
+	--color-steel-blue-900: #0e1825;
+	--color-steel-blue-950: #09111a;
  */
+
 :root {
 	--radius: 0.75rem;
 
 	/* 
-   * Dark theme - uses brighter brand colors for contrast
-   * Primary: #51cdbe (bright teal from logo)
+   * Dark theme - uses brighter steel-blue colors for contrast
+   * Primary: steel-blue-300
    */
-	--background: oklch(0.13 0.015 180);
-	--foreground: oklch(0.98 0.01 180);
+	--background: oklch(0.13 0.015 254);
+	--foreground: oklch(0.98 0.01 254);
 
-	--card: oklch(0.17 0.015 180);
-	--card-foreground: oklch(0.98 0.01 180);
+	--card: oklch(0.17 0.015 254);
+	--card-foreground: oklch(0.98 0.01 254);
 
-	--popover: oklch(0.15 0.015 180);
-	--popover-foreground: oklch(0.98 0.01 180);
+	--popover: oklch(0.15 0.015 254);
+	--popover-foreground: oklch(0.98 0.01 254);
 
-	/* Primary: #51cdbe - bright teal from logo */
-	--primary: oklch(0.77 0.12 175);
-	--primary-foreground: oklch(0.15 0.02 180);
+	/* Primary: steel-blue-300 - bright blue */
+	--primary: oklch(74.41% 0.067 253.63);
+	--primary-foreground: oklch(17.45% 0.022 251.93);
 
-	/* Secondary: subtle teal tint */
-	--secondary: oklch(0.22 0.02 175);
-	--secondary-foreground: oklch(0.98 0.01 180);
+	/* Secondary: subtle steel-blue tint */
+	--secondary: oklch(0.22 0.03 254);
+	--secondary-foreground: oklch(0.98 0.01 254);
 
-	--muted: oklch(0.2 0.015 180);
-	--muted-foreground: oklch(0.65 0.02 180);
+	--muted: oklch(0.2 0.02 254);
+	--muted-foreground: oklch(0.65 0.03 254);
 
-	/* Accent: #81dad3 - light teal for highlights */
-	--accent: oklch(0.83 0.09 175);
-	--accent-foreground: oklch(0.15 0.02 180);
+	/* Accent: steel-blue-200 - light blue for highlights */
+	--accent: oklch(83.09% 0.044 252.68);
+	--accent-foreground: oklch(17.45% 0.022 251.93);
 
 	--destructive: oklch(0.55 0.22 25);
-	--destructive-foreground: oklch(0.98 0.01 180);
+	--destructive-foreground: oklch(0.98 0.01 254);
 
-	--border: oklch(0.28 0.025 175);
-	--input: oklch(0.22 0.02 175);
-	--ring: oklch(0.77 0.12 175);
+	--border: oklch(0.28 0.04 254);
+	--input: oklch(0.22 0.03 254);
+	--ring: oklch(74.41% 0.067 253.63);
 
-	/* Chart colors - teal-based palette */
-	--chart-1: oklch(0.77 0.12 175);
-	--chart-2: oklch(0.65 0.11 175);
+	/* Chart colors - steel-blue-based palette */
+	--chart-1: oklch(74.41% 0.067 253.63);
+	--chart-2: oklch(57.25% 0.116 254.2);
 	--chart-3: oklch(0.7 0.15 60);
 	--chart-4: oklch(0.65 0.15 300);
 	--chart-5: oklch(0.65 0.18 10);
 
 	/* Sidebar */
-	--sidebar: oklch(0.15 0.015 180);
-	--sidebar-foreground: oklch(0.98 0.01 180);
-	--sidebar-primary: oklch(0.77 0.12 175);
-	--sidebar-primary-foreground: oklch(0.15 0.02 180);
-	--sidebar-accent: oklch(0.22 0.02 175);
-	--sidebar-accent-foreground: oklch(0.98 0.01 180);
-	--sidebar-border: oklch(0.28 0.025 175);
-	--sidebar-ring: oklch(0.77 0.12 175);
+	--sidebar: oklch(0.15 0.015 254);
+	--sidebar-foreground: oklch(0.98 0.01 254);
+	--sidebar-primary: oklch(74.41% 0.067 253.63);
+	--sidebar-primary-foreground: oklch(17.45% 0.022 251.93);
+	--sidebar-accent: oklch(0.22 0.03 254);
+	--sidebar-accent-foreground: oklch(0.98 0.01 254);
+	--sidebar-border: oklch(0.28 0.04 254);
+	--sidebar-ring: oklch(74.41% 0.067 253.63);
 
 	/* Custom Dokistry tokens */
-	--gradient-primary: linear-gradient(135deg, oklch(0.77 0.12 175 / 0.2), oklch(0.13 0.015 180));
-	--gradient-subtle: linear-gradient(180deg, oklch(0.15 0.015 180), oklch(0.13 0.015 180));
-	--shadow-glow: 0 0 60px oklch(0.77 0.12 175 / 0.35);
-	--shadow-card: 0 8px 32px oklch(0.08 0.015 180 / 0.5);
+	--gradient-primary: linear-gradient(
+		135deg,
+		oklch(74.41% 0.067 253.63 / 0.2),
+		oklch(0.13 0.015 254)
+	);
+	--gradient-subtle: linear-gradient(180deg, oklch(0.15 0.015 254), oklch(0.13 0.015 254));
+	--shadow-glow: 0 0 60px oklch(74.41% 0.067 253.63 / 0.35);
+	--shadow-card: 0 8px 32px oklch(0.08 0.015 254 / 0.5);
 }
 
 /* 
- * Light theme - uses darker brand colors for contrast
- * Primary: #32aea4 (medium-dark teal from logo)
+ * Light theme - uses darker steel-blue colors for contrast
+ * Primary: steel-blue-500
  */
 .light {
-	--background: oklch(0.995 0.005 175);
-	--foreground: oklch(0.2 0.04 180);
+	--background: oklch(95.83% 0.01 247.93);
+	--foreground: oklch(20.64% 0.03 255.34);
 
 	--card: oklch(1 0 0);
-	--card-foreground: oklch(0.2 0.04 180);
+	--card-foreground: oklch(20.64% 0.03 255.34);
 
 	--popover: oklch(1 0 0);
-	--popover-foreground: oklch(0.2 0.04 180);
+	--popover-foreground: oklch(20.64% 0.03 255.34);
 
-	/* Primary: #32aea4 - darker teal for light mode */
-	--primary: oklch(0.64 0.12 175);
+	/* Primary: steel-blue-500 - medium blue for light mode */
+	--primary: oklch(48.71% 0.098 254.64);
 	--primary-foreground: oklch(1 0 0);
 
-	/* Secondary: #effaf9 - lightest teal tint */
-	--secondary: oklch(0.97 0.02 175);
-	--secondary-foreground: oklch(0.2 0.04 180);
+	/* Secondary: steel-blue-50 - lightest blue tint */
+	--secondary: oklch(95.83% 0.01 247.93);
+	--secondary-foreground: oklch(20.64% 0.03 255.34);
 
-	/* Muted: light teal tint */
-	--muted: oklch(0.95 0.02 175);
-	--muted-foreground: oklch(0.45 0.04 180);
+	/* Muted: steel-blue-100 */
+	--muted: oklch(91.52% 0.021 254.92);
+	--muted-foreground: oklch(40.02% 0.076 254.32);
 
-	/* Accent: #b0e8e3 - soft teal for light mode */
-	--accent: oklch(0.9 0.06 175);
-	--accent-foreground: oklch(0.2 0.04 180);
+	/* Accent: steel-blue-100 - soft blue for light mode */
+	--accent: oklch(91.52% 0.021 254.92);
+	--accent-foreground: oklch(20.64% 0.03 255.34);
 
 	--destructive: oklch(0.55 0.25 25);
 	--destructive-foreground: oklch(1 0 0);
 
-	--border: oklch(0.9 0.03 175);
-	--input: oklch(0.92 0.02 175);
-	--ring: oklch(0.64 0.12 175);
+	--border: oklch(83.09% 0.044 252.68);
+	--input: oklch(91.52% 0.021 254.92);
+	--ring: oklch(57.25% 0.116 254.2);
 
 	/* Sidebar */
-	--sidebar: oklch(0.97 0.02 175);
-	--sidebar-foreground: oklch(0.2 0.04 180);
-	--sidebar-primary: oklch(0.64 0.12 175);
+	--sidebar: oklch(95.83% 0.01 247.93);
+	--sidebar-foreground: oklch(20.64% 0.03 255.34);
+	--sidebar-primary: oklch(57.25% 0.116 254.2);
 	--sidebar-primary-foreground: oklch(1 0 0);
-	--sidebar-accent: oklch(0.95 0.02 175);
-	--sidebar-accent-foreground: oklch(0.2 0.04 180);
-	--sidebar-border: oklch(0.9 0.03 175);
-	--sidebar-ring: oklch(0.64 0.12 175);
+	--sidebar-accent: oklch(91.52% 0.021 254.92);
+	--sidebar-accent-foreground: oklch(20.64% 0.03 255.34);
+	--sidebar-border: oklch(83.09% 0.044 252.68);
+	--sidebar-ring: oklch(57.25% 0.116 254.2);
 
 	/* Custom tokens for light mode */
-	--gradient-primary: linear-gradient(135deg, oklch(0.64 0.12 175 / 0.12), oklch(0.995 0.005 175));
-	--gradient-subtle: linear-gradient(180deg, oklch(0.97 0.02 175), oklch(0.995 0.005 175));
-	--shadow-glow: 0 0 60px oklch(0.64 0.12 175 / 0.2);
-	--shadow-card: 0 8px 32px oklch(0.2 0.04 180 / 0.08);
+	--gradient-primary: linear-gradient(
+		135deg,
+		oklch(57.25% 0.116 254.2 / 0.12),
+		oklch(95.83% 0.01 247.93)
+	);
+	--gradient-subtle: linear-gradient(180deg, oklch(91.52% 0.021 254.92), oklch(95.83% 0.01 247.93));
+	--shadow-glow: 0 0 60px oklch(57.25% 0.116 254.2 / 0.2);
+	--shadow-card: 0 8px 32px oklch(20.64% 0.03 255.34 / 0.08);
 }
 
 @layer base {
@@ -207,48 +232,48 @@
 	}
 }
 
-/* Hero section effects - using brand colors */
+/* Hero section effects - using steel-blue colors */
 .hero-radial-gradient {
-	background: radial-gradient(circle at 50% 50%, oklch(0.77 0.12 175 / 0.28), transparent 60%);
+	background: radial-gradient(circle at 50% 50%, oklch(74.41% 0.067 253.63 / 0.28), transparent 60%);
 }
 
 .light .hero-radial-gradient {
-	background: radial-gradient(circle at 50% 50%, oklch(0.64 0.12 175 / 0.1), transparent 50%);
+	background: radial-gradient(circle at 50% 50%, oklch(57.25% 0.116 254.2 / 0.1), transparent 50%);
 }
 
 .hero-grid-pattern {
 	background-image:
-		linear-gradient(oklch(0.77 0.12 175 / 0.1) 1px, transparent 1px),
-		linear-gradient(90deg, oklch(0.77 0.12 175 / 0.1) 1px, transparent 1px);
+		linear-gradient(oklch(74.41% 0.067 253.63 / 0.1) 1px, transparent 1px),
+		linear-gradient(90deg, oklch(74.41% 0.067 253.63 / 0.1) 1px, transparent 1px);
 	background-size: 64px 64px;
 }
 
 .light .hero-grid-pattern {
 	background-image:
-		linear-gradient(oklch(0.64 0.12 175 / 0.08) 1px, transparent 1px),
-		linear-gradient(90deg, oklch(0.64 0.12 175 / 0.08) 1px, transparent 1px);
+		linear-gradient(oklch(57.25% 0.116 254.2 / 0.08) 1px, transparent 1px),
+		linear-gradient(90deg, oklch(57.25% 0.116 254.2 / 0.08) 1px, transparent 1px);
 }
 
 /* Features section background - smooth transition */
 .section-features-bg {
 	background: linear-gradient(
 		180deg,
-		oklch(0.13 0.015 180) 0%,
-		oklch(0.15 0.02 175) 20%,
-		oklch(0.17 0.025 175) 50%,
-		oklch(0.15 0.02 175) 80%,
-		oklch(0.13 0.015 180) 100%
+		oklch(0.13 0.015 254) 0%,
+		oklch(0.15 0.03 254) 20%,
+		oklch(0.17 0.04 254) 50%,
+		oklch(0.15 0.03 254) 80%,
+		oklch(0.13 0.015 254) 100%
 	);
 }
 
 .light .section-features-bg {
 	background: linear-gradient(
 		180deg,
-		oklch(0.995 0.005 175) 0%,
-		oklch(0.97 0.02 175) 20%,
-		oklch(0.96 0.025 175) 50%,
-		oklch(0.97 0.02 175) 80%,
-		oklch(0.995 0.005 175) 100%
+		oklch(95.83% 0.01 247.93) 0%,
+		oklch(91.52% 0.021 254.92) 20%,
+		oklch(91.52% 0.021 254.92) 50%,
+		oklch(91.52% 0.021 254.92) 80%,
+		oklch(95.83% 0.01 247.93) 100%
 	);
 }
 
@@ -256,26 +281,26 @@
 .section-cta-bg {
 	background: linear-gradient(
 		135deg,
-		oklch(0.77 0.12 175 / 0.1) 0%,
-		oklch(0.13 0.015 180) 40%,
-		oklch(0.13 0.015 180) 100%
+		oklch(74.41% 0.067 253.63 / 0.1) 0%,
+		oklch(0.13 0.015 254) 40%,
+		oklch(0.13 0.015 254) 100%
 	);
 }
 
 .light .section-cta-bg {
 	background: linear-gradient(
 		135deg,
-		oklch(0.64 0.12 175 / 0.08) 0%,
-		oklch(0.995 0.005 175) 40%,
-		oklch(0.995 0.005 175) 100%
+		oklch(57.25% 0.116 254.2 / 0.08) 0%,
+		oklch(95.83% 0.01 247.93) 40%,
+		oklch(95.83% 0.01 247.93) 100%
 	);
 }
 
 /* CTA glow effect */
 .section-cta-glow {
-	background: radial-gradient(circle at 30% 50%, oklch(0.77 0.12 175 / 0.15), transparent 50%);
+	background: radial-gradient(circle at 30% 50%, oklch(74.41% 0.067 253.63 / 0.15), transparent 50%);
 }
 
 .light .section-cta-glow {
-	background: radial-gradient(circle at 30% 50%, oklch(0.64 0.12 175 / 0.08), transparent 50%);
+	background: radial-gradient(circle at 30% 50%, oklch(57.25% 0.116 254.2 / 0.08), transparent 50%);
 }

@@ -1,6 +1,6 @@
 {
 	"metadata": {
-		"title": "Kelola Docker registry yang di-hosting sendiri | Dokistry",
+		"title": "Dokistry - Kelola Docker registry yang di-hosting sendiri",
 		"description": "Pantau dan kelola Docker registry yang di-hosting sendiri, image, dan pengguna dari satu antarmuka modern."
 	},
 	"nav": {

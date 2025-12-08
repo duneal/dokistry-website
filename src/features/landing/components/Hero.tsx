@@ -28,14 +28,14 @@ export function Hero() {
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
-					className="text-center max-w-4xl mx-auto"
+					className="text-center max-w-4xl mx-auto sm:mt-0 mt-[110px]"
 				>
 					{/* Badge */}
 					<motion.div
 						initial={{ opacity: 0, scale: 0.9 }}
 						animate={{ opacity: 1, scale: 1 }}
 						transition={{ delay: 0.2 }}
-						className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8"
+						className=" items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 hidden sm:inline-flex"
 					>
 						<span className="text-sm font-medium text-primary">{t("badge")}</span>
 					</motion.div>

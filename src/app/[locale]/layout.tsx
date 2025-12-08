@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		metadataBase: new URL(APP_URL!),
 		title: {
 			default: t("title"),
-			template: `%s | Dokistry`,
+			template: `Dokistry - %s`,
 		},
 		description: t("description"),
 		robots: {
