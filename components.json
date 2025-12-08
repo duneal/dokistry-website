@@ -14,9 +14,9 @@
   "aliases": {
     "components": "@/app/_components/shared",
     "hooks": "@/utils/hooks/shadcn-ui",
-    "lib": "@/utils/lib/shadcn-ui",
+    "lib": "@/utils/lib",
     "ui": "@/app/_components/ui",
-    "utils": "@/utils/helpers/shadcn-ui"
+    "utils": "@/utils/lib/tailwind"
   },
   "registries": {}
 }

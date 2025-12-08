@@ -1,0 +1,7 @@
+export { CTA } from "./CTA"
+export { Features } from "./Features"
+export { Footer } from "./Footer"
+export { Hero } from "./Hero"
+export { LanguageSwitcher } from "./LanguageSwitcher"
+export { Navigation } from "./Navigation"
+export { ThemeSwitcher } from "./ThemeSwitcher"
