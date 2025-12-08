@@ -2,9 +2,12 @@
 
 import { motion } from "framer-motion"
 import { Github, Star } from "lucide-react"
+import { useTranslations } from "next-intl"
 import { Button } from "@/app/_components/ui/button"
 
 export function CTA() {
+	const t = useTranslations("cta")
+
 	return (
 		<section id="get-started" className="py-24 relative overflow-hidden">
 			{/* Background effects - smooth transition from features */}
@@ -22,14 +25,13 @@ export function CTA() {
 					<div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-2xl p-12 text-center shadow-card">
 						<div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
 							<Star className="w-4 h-4 text-primary" />
-							<span className="text-sm font-medium text-primary">Open Source Project</span>
+							<span className="text-sm font-medium text-primary">{t("badge")}</span>
 						</div>
 
-						<h2 className="font-grotesk text-4xl md:text-5xl font-bold mb-6">Get Started Today</h2>
+						<h2 className="font-grotesk text-4xl md:text-5xl font-bold mb-6">{t("title")}</h2>
 
 						<p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-							Join the community and start managing your Docker registries more efficiently. It's
-							free, open source, and ready to deploy.
+							{t("description")}
 						</p>
 
 						<div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -44,7 +46,7 @@ export function CTA() {
 									rel="noopener noreferrer"
 								>
 									<Github className="mr-2 h-5 w-5" />
-									Star on GitHub
+									{t("starOnGithub")}
 									<Star className="ml-2 h-4 w-4 group-hover:fill-primary-foreground transition-all" />
 								</a>
 							</Button>
@@ -60,15 +62,13 @@ export function CTA() {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									View Documentation
+									{t("viewDocumentation")}
 								</a>
 							</Button>
 						</div>
 
 						<div className="mt-10 pt-10 border-t border-border/30">
-							<p className="text-sm text-muted-foreground">
-								Built for developers, by developers • MIT Licensed
-							</p>
+							<p className="text-sm text-muted-foreground">{t("footer")}</p>
 						</div>
 					</div>
 				</motion.div>

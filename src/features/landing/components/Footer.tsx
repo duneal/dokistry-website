@@ -1,7 +1,12 @@
+"use client"
+
 import { Github } from "lucide-react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export function Footer() {
+	const t = useTranslations("footer")
+
 	return (
 		<footer className="border-t border-border/30 py-12 relative">
 			<div className="container mx-auto px-4">
@@ -24,7 +29,7 @@ export function Footer() {
 							className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
 						>
 							<Github className="w-5 h-5" />
-							<span className="text-sm">GitHub</span>
+							<span className="text-sm">{t("github")}</span>
 						</a>
 
 						<a
@@ -33,7 +38,7 @@ export function Footer() {
 							rel="noopener noreferrer"
 							className="text-muted-foreground hover:text-primary transition-colors"
 						>
-							<span className="text-sm">Documentation</span>
+							<span className="text-sm">{t("documentation")}</span>
 						</a>
 
 						<a
@@ -42,14 +47,14 @@ export function Footer() {
 							rel="noopener noreferrer"
 							className="text-muted-foreground hover:text-primary transition-colors"
 						>
-							<span className="text-sm">Issues</span>
+							<span className="text-sm">{t("issues")}</span>
 						</a>
 					</div>
 				</div>
 
 				<div className="mt-8 pt-8 border-t border-border/20 text-center">
 					<p className="text-sm text-muted-foreground">
-						© {new Date().getFullYear()} Dokistry. Open source under MIT License.
+						{t("copyright", { year: new Date().getFullYear() })}
 					</p>
 				</div>
 			</div>

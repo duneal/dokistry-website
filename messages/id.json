@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Kelola Docker registry yang di-hosting sendiri | Dokistry",
+		"description": "Pantau dan kelola Docker registry yang di-hosting sendiri, image, dan pengguna dari satu antarmuka modern."
+	},
+	"nav": {
+		"home": "Beranda",
+		"features": "Fitur",
+		"getStarted": "Mulai",
+		"selectLanguage": "Pilih bahasa"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Kelola Docker registry",
+		"titleHighlight": "dengan mudah",
+		"description": "Satu antarmuka modern untuk memantau dan mengelola Docker registry yang di-hosting sendiri, image, dan pengguna.",
+		"viewOnGithub": "Lihat di GitHub",
+		"exploreFeatures": "Jelajahi fitur",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Registry",
+			"modernUi": "UI Modern",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Semua yang Anda butuhkan",
+		"subtitle": "Manajemen Docker registry yang komprehensif dalam antarmuka yang bersih",
+		"registryManagement": {
+			"title": "Manajemen Registry",
+			"description": "Pantau dan kelola Docker registry yang di-hosting sendiri dengan antarmuka yang intuitif. Hubungkan beberapa registry dengan mulus."
+		},
+		"imageInspection": {
+			"title": "Inspeksi Image",
+			"description": "Lihat informasi detail tentang image dan ukuran tag. Pantau penggunaan disk di registry Anda."
+		},
+		"tagInspection": {
+			"title": "Inspeksi Tag",
+			"description": "Periksa dan analisis tag di setiap registry. Dapatkan metadata lengkap dalam sekejap."
+		},
+		"tagsDeletion": {
+			"title": "Penghapusan Tag",
+			"description": "Hapus tag langsung dari antarmuka. Bersihkan resource yang tidak terpakai secara efisien."
+		},
+		"multiRegistry": {
+			"title": "Multi-Registry",
+			"description": "Kelola beberapa registry dari satu instance. Beralih antar registry dengan mudah."
+		},
+		"userManagement": {
+			"title": "Manajemen Pengguna",
+			"description": "Tambah dan kelola pengguna dengan hak admin. Kontrol akses ke registry Anda dengan aman."
+		}
+	},
+	"cta": {
+		"badge": "Proyek Open Source",
+		"title": "Mulai hari ini",
+		"description": "Bergabunglah dengan komunitas dan mulai mengelola Docker registry Anda dengan lebih efisien. Gratis, open source, dan siap di-deploy.",
+		"starOnGithub": "Star di GitHub",
+		"viewDocumentation": "Lihat dokumentasi",
+		"footer": "Dibuat oleh developer, untuk developer • Lisensi MIT"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Dokumentasi",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source di bawah lisensi MIT."
+	}
+}
+

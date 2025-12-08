@@ -17,6 +17,9 @@ services:
         - path: ./public
           action: sync
           target: /app/public
+        - path: ./messages
+          action: sync
+          target: /app/messages
         - path: ./.env
           action: sync
           target: /app/.env

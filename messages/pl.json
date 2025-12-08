@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Zarządzaj swoimi rejestrami Docker | Dokistry",
+		"description": "Monitoruj i zarządzaj własnymi rejestrami Docker, obrazami i użytkownikami z jednego nowoczesnego interfejsu."
+	},
+	"nav": {
+		"home": "Strona główna",
+		"features": "Funkcje",
+		"getStarted": "Rozpocznij",
+		"selectLanguage": "Wybierz język"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Zarządzaj rejestrami Docker",
+		"titleHighlight": "z łatwością",
+		"description": "Jeden nowoczesny interfejs do monitorowania i zarządzania własnymi rejestrami Docker, obrazami i użytkownikami.",
+		"viewOnGithub": "Zobacz na GitHub",
+		"exploreFeatures": "Odkryj funkcje",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Rejestry",
+			"modernUi": "Nowoczesny UI",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Wszystko czego potrzebujesz",
+		"subtitle": "Kompleksowe zarządzanie rejestrami Docker w przejrzystym interfejsie",
+		"registryManagement": {
+			"title": "Zarządzanie rejestrami",
+			"description": "Monitoruj i zarządzaj własnymi rejestrami Docker za pomocą intuicyjnego interfejsu. Łącz wiele rejestrów bezproblemowo."
+		},
+		"imageInspection": {
+			"title": "Inspekcja obrazów",
+			"description": "Przeglądaj szczegółowe informacje o obrazach i rozmiarach tagów. Monitoruj wykorzystanie dysku w swoich rejestrach."
+		},
+		"tagInspection": {
+			"title": "Inspekcja tagów",
+			"description": "Sprawdzaj i analizuj tagi w każdym rejestrze. Uzyskaj pełne metadane na pierwszy rzut oka."
+		},
+		"tagsDeletion": {
+			"title": "Usuwanie tagów",
+			"description": "Usuwaj tagi bezpośrednio z interfejsu. Efektywnie czyść nieużywane zasoby."
+		},
+		"multiRegistry": {
+			"title": "Multi-rejestr",
+			"description": "Zarządzaj wieloma rejestrami z jednej instancji. Przełączaj się między rejestrami bez wysiłku."
+		},
+		"userManagement": {
+			"title": "Zarządzanie użytkownikami",
+			"description": "Dodawaj i zarządzaj użytkownikami z uprawnieniami administratora. Bezpiecznie kontroluj dostęp do swoich rejestrów."
+		}
+	},
+	"cta": {
+		"badge": "Projekt Open Source",
+		"title": "Zacznij już dziś",
+		"description": "Dołącz do społeczności i zacznij zarządzać swoimi rejestrami Docker wydajniej. Bezpłatnie, open source i gotowe do wdrożenia.",
+		"starOnGithub": "Star na GitHub",
+		"viewDocumentation": "Zobacz dokumentację",
+		"footer": "Stworzone przez deweloperów, dla deweloperów • Licencja MIT"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Dokumentacja",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source na licencji MIT."
+	}
+}
+

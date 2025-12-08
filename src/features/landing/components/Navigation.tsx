@@ -3,19 +3,21 @@
 import { motion } from "framer-motion"
 import { Menu, X } from "lucide-react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { Button } from "@/app/_components/ui/button"
 import { LanguageSwitcher } from "./LanguageSwitcher"
 import { ThemeSwitcher } from "./ThemeSwitcher"
 
-const navItems = [
-	{ label: "Home", href: "#" },
-	{ label: "Features", href: "#features" },
-	{ label: "Get Started", href: "#get-started" },
-]
-
 export function Navigation() {
 	const [isOpen, setIsOpen] = useState(false)
+	const t = useTranslations("nav")
+
+	const navItems = [
+		{ label: t("home"), href: "#" },
+		{ label: t("features"), href: "#features" },
+		{ label: t("getStarted"), href: "#get-started" },
+	]
 
 	return (
 		<motion.nav

@@ -2,9 +2,18 @@
 
 import { motion } from "framer-motion"
 import { ArrowRight, Github } from "lucide-react"
+import { useTranslations } from "next-intl"
 import { Button } from "@/app/_components/ui/button"
 
 export function Hero() {
+	const t = useTranslations("hero")
+
+	const stats = [
+		{ label: t("stats.openSource"), value: t("stats.openSourceValue") },
+		{ label: t("stats.registries"), value: t("stats.registriesValue") },
+		{ label: t("stats.modernUi"), value: t("stats.modernUiValue") },
+	]
+
 	return (
 		<section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 bg-background">
 			{/* Background effects */}
@@ -28,7 +37,7 @@ export function Hero() {
 						transition={{ delay: 0.2 }}
 						className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8"
 					>
-						<span className="text-sm font-medium text-primary">Open Source</span>
+						<span className="text-sm font-medium text-primary">{t("badge")}</span>
 					</motion.div>
 
 					{/* Main heading */}
@@ -38,9 +47,9 @@ export function Hero() {
 						transition={{ delay: 0.3 }}
 						className="font-grotesk text-5xl md:text-7xl font-bold mb-6 leading-tight"
 					>
-						Monitor Docker registries
+						{t("title")}
 						<br />
-						<span className="text-primary">with ease</span>
+						<span className="text-primary">{t("titleHighlight")}</span>
 					</motion.h1>
 
 					{/* Description */}
@@ -50,8 +59,7 @@ export function Hero() {
 						transition={{ delay: 0.4 }}
 						className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light"
 					>
-						A single modern interface to monitor and manage your self&#8209;hosted Docker
-						registries, images, and users.
+						{t("description")}
 					</motion.p>
 
 					{/* CTAs */}
@@ -72,7 +80,7 @@ export function Hero() {
 								rel="noopener noreferrer"
 							>
 								<Github className="mr-2 h-5 w-5" />
-								View on GitHub
+								{t("viewOnGithub")}
 								<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
 							</a>
 						</Button>
@@ -83,7 +91,7 @@ export function Hero() {
 							className="border-border/50 hover:bg-card dark:hover:text-white font-medium px-8"
 							asChild
 						>
-							<a href="#features">Explore Features</a>
+							<a href="#features">{t("exploreFeatures")}</a>
 						</Button>
 					</motion.div>
 
@@ -94,11 +102,7 @@ export function Hero() {
 						transition={{ delay: 0.7 }}
 						className="mt-16 flex flex-wrap justify-center gap-12"
 					>
-						{[
-							{ label: "Open Source", value: "100%" },
-							{ label: "Registries", value: "Multi" },
-							{ label: "Modern UI", value: "React" },
-						].map((stat, index) => (
+						{stats.map((stat, index) => (
 							<div key={index} className="text-center">
 								<div className="text-3xl font-grotesk font-bold text-primary mb-1">
 									{stat.value}

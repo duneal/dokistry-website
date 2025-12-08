@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Beheer uw zelf-gehoste Docker registries | Dokistry",
+		"description": "Monitor en beheer uw zelf-gehoste Docker registries, images en gebruikers vanuit één moderne interface."
+	},
+	"nav": {
+		"home": "Home",
+		"features": "Functies",
+		"getStarted": "Aan de slag",
+		"selectLanguage": "Taal selecteren"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Beheer Docker registries",
+		"titleHighlight": "met gemak",
+		"description": "Eén moderne interface om uw zelf-gehoste Docker registries, images en gebruikers te monitoren en beheren.",
+		"viewOnGithub": "Bekijk op GitHub",
+		"exploreFeatures": "Ontdek functies",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Registries",
+			"modernUi": "Moderne UI",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Alles wat u nodig heeft",
+		"subtitle": "Uitgebreid Docker registry beheer in een overzichtelijke interface",
+		"registryManagement": {
+			"title": "Registry beheer",
+			"description": "Monitor en beheer zelf-gehoste Docker registries met een intuïtieve interface. Verbind meerdere registries naadloos."
+		},
+		"imageInspection": {
+			"title": "Image inspectie",
+			"description": "Bekijk gedetailleerde informatie over images en tag groottes. Monitor schijfgebruik in uw registries."
+		},
+		"tagInspection": {
+			"title": "Tag inspectie",
+			"description": "Inspecteer en analyseer tags op elke registry. Krijg uitgebreide metadata in één oogopslag."
+		},
+		"tagsDeletion": {
+			"title": "Tag verwijdering",
+			"description": "Verwijder tags direct vanuit de interface. Ruim ongebruikte resources efficiënt op."
+		},
+		"multiRegistry": {
+			"title": "Multi-registry",
+			"description": "Beheer meerdere registries vanuit één instantie. Schakel moeiteloos tussen registries."
+		},
+		"userManagement": {
+			"title": "Gebruikersbeheer",
+			"description": "Voeg gebruikers met admin-rechten toe en beheer ze. Beheer de toegang tot uw registries veilig."
+		}
+	},
+	"cta": {
+		"badge": "Open Source Project",
+		"title": "Begin vandaag",
+		"description": "Word lid van de community en begin uw Docker registries efficiënter te beheren. Gratis, open source en klaar om te deployen.",
+		"starOnGithub": "Star op GitHub",
+		"viewDocumentation": "Bekijk documentatie",
+		"footer": "Gemaakt door developers, voor developers • MIT Licentie"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Documentatie",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source onder MIT licentie."
+	}
+}
+

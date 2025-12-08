@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Verwalten Sie Ihre selbst gehosteten Docker-Registries | Dokistry",
+		"description": "Überwachen und verwalten Sie selbst gehostete Docker-Registries, Images und Benutzer über eine moderne Oberfläche."
+	},
+	"nav": {
+		"home": "Startseite",
+		"features": "Funktionen",
+		"getStarted": "Loslegen",
+		"selectLanguage": "Sprache wählen"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Verwalten Sie Docker-Registries",
+		"titleHighlight": "mit Leichtigkeit",
+		"description": "Eine moderne Oberfläche zum Überwachen und Verwalten Ihrer selbst gehosteten Docker-Registries, Images und Benutzer.",
+		"viewOnGithub": "Auf GitHub ansehen",
+		"exploreFeatures": "Funktionen entdecken",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Registries",
+			"modernUi": "Moderne UI",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Alles was Sie brauchen",
+		"subtitle": "Umfassende Docker-Registry-Verwaltung in einer übersichtlichen Oberfläche",
+		"registryManagement": {
+			"title": "Registry-Verwaltung",
+			"description": "Überwachen und verwalten Sie selbst gehostete Docker-Registries mit einer intuitiven Oberfläche. Verbinden Sie mehrere Registries nahtlos."
+		},
+		"imageInspection": {
+			"title": "Image-Inspektion",
+			"description": "Zeigen Sie detaillierte Informationen über Images und Tag-Größen an. Überwachen Sie die Festplattennutzung in Ihren Registries."
+		},
+		"tagInspection": {
+			"title": "Tag-Inspektion",
+			"description": "Inspizieren und analysieren Sie Tags in jeder Registry. Erhalten Sie umfassende Metadaten auf einen Blick."
+		},
+		"tagsDeletion": {
+			"title": "Tag-Löschung",
+			"description": "Löschen Sie Tags direkt über die Oberfläche. Bereinigen Sie ungenutzte Ressourcen effizient."
+		},
+		"multiRegistry": {
+			"title": "Multi-Registry",
+			"description": "Verwalten Sie mehrere Registries von einer Instanz aus. Wechseln Sie mühelos zwischen Registries."
+		},
+		"userManagement": {
+			"title": "Benutzerverwaltung",
+			"description": "Fügen Sie Benutzer mit Admin-Rechten hinzu und verwalten Sie diese. Kontrollieren Sie den Zugriff auf Ihre Registries sicher."
+		}
+	},
+	"cta": {
+		"badge": "Open Source Projekt",
+		"title": "Starten Sie noch heute",
+		"description": "Treten Sie der Community bei und verwalten Sie Ihre Docker-Registries effizienter. Kostenlos, Open Source und bereit zum Einsatz.",
+		"starOnGithub": "Star auf GitHub",
+		"viewDocumentation": "Dokumentation ansehen",
+		"footer": "Von Entwicklern für Entwickler erstellt • MIT-Lizenz"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Dokumentation",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open Source unter MIT-Lizenz."
+	}
+}
+

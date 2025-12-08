@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Hantera dina självhostade Docker-register | Dokistry",
+		"description": "Övervaka och hantera dina självhostade Docker-register, images och användare från ett enda modernt gränssnitt."
+	},
+	"nav": {
+		"home": "Hem",
+		"features": "Funktioner",
+		"getStarted": "Kom igång",
+		"selectLanguage": "Välj språk"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Hantera Docker-register",
+		"titleHighlight": "enkelt",
+		"description": "Ett modernt gränssnitt för att övervaka och hantera dina självhostade Docker-register, images och användare.",
+		"viewOnGithub": "Visa på GitHub",
+		"exploreFeatures": "Utforska funktioner",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Register",
+			"modernUi": "Modernt UI",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Allt du behöver",
+		"subtitle": "Omfattande Docker-registerhantering i ett rent gränssnitt",
+		"registryManagement": {
+			"title": "Registerhantering",
+			"description": "Övervaka och hantera självhostade Docker-register med ett intuitivt gränssnitt. Anslut flera register sömlöst."
+		},
+		"imageInspection": {
+			"title": "Image-inspektion",
+			"description": "Visa detaljerad information om images och taggstorlekar. Övervaka diskanvändning i dina register."
+		},
+		"tagInspection": {
+			"title": "Tagg-inspektion",
+			"description": "Inspektera och analysera taggar på varje register. Få omfattande metadata med en blick."
+		},
+		"tagsDeletion": {
+			"title": "Tagg-radering",
+			"description": "Radera taggar direkt från gränssnittet. Rensa oanvända resurser effektivt."
+		},
+		"multiRegistry": {
+			"title": "Multi-register",
+			"description": "Hantera flera register från en enda instans. Växla mellan register utan ansträngning."
+		},
+		"userManagement": {
+			"title": "Användarhantering",
+			"description": "Lägg till och hantera användare med admin-behörigheter. Kontrollera åtkomst till dina register säkert."
+		}
+	},
+	"cta": {
+		"badge": "Open Source-projekt",
+		"title": "Kom igång idag",
+		"description": "Gå med i communityn och börja hantera dina Docker-register mer effektivt. Gratis, open source och redo att distribuera.",
+		"starOnGithub": "Star på GitHub",
+		"viewDocumentation": "Visa dokumentation",
+		"footer": "Byggt av utvecklare, för utvecklare • MIT-licens"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Dokumentation",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source under MIT-licens."
+	}
+}
+

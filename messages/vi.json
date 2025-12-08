@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Quản lý Docker registry tự lưu trữ | Dokistry",
+		"description": "Giám sát và quản lý Docker registry tự lưu trữ, image và người dùng từ một giao diện hiện đại."
+	},
+	"nav": {
+		"home": "Trang chủ",
+		"features": "Tính năng",
+		"getStarted": "Bắt đầu",
+		"selectLanguage": "Chọn ngôn ngữ"
+	},
+	"hero": {
+		"badge": "Mã nguồn mở",
+		"title": "Quản lý Docker registry",
+		"titleHighlight": "dễ dàng",
+		"description": "Một giao diện hiện đại để giám sát và quản lý Docker registry tự lưu trữ, image và người dùng.",
+		"viewOnGithub": "Xem trên GitHub",
+		"exploreFeatures": "Khám phá tính năng",
+		"stats": {
+			"openSource": "Mã nguồn mở",
+			"registries": "Registry",
+			"modernUi": "UI Hiện đại",
+			"openSourceValue": "100%",
+			"registriesValue": "Đa",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Tất cả những gì bạn cần",
+		"subtitle": "Quản lý Docker registry toàn diện trong giao diện sạch sẽ",
+		"registryManagement": {
+			"title": "Quản lý Registry",
+			"description": "Giám sát và quản lý Docker registry tự lưu trữ với giao diện trực quan. Kết nối nhiều registry một cách liền mạch."
+		},
+		"imageInspection": {
+			"title": "Kiểm tra Image",
+			"description": "Xem thông tin chi tiết về image và kích thước tag. Giám sát sử dụng đĩa trong các registry của bạn."
+		},
+		"tagInspection": {
+			"title": "Kiểm tra Tag",
+			"description": "Kiểm tra và phân tích tag trên mỗi registry. Nhận metadata đầy đủ trong nháy mắt."
+		},
+		"tagsDeletion": {
+			"title": "Xóa Tag",
+			"description": "Xóa tag trực tiếp từ giao diện. Dọn dẹp tài nguyên không sử dụng một cách hiệu quả."
+		},
+		"multiRegistry": {
+			"title": "Đa Registry",
+			"description": "Quản lý nhiều registry từ một instance. Chuyển đổi giữa các registry dễ dàng."
+		},
+		"userManagement": {
+			"title": "Quản lý Người dùng",
+			"description": "Thêm và quản lý người dùng với quyền admin. Kiểm soát truy cập vào registry của bạn một cách an toàn."
+		}
+	},
+	"cta": {
+		"badge": "Dự án Mã nguồn mở",
+		"title": "Bắt đầu ngay hôm nay",
+		"description": "Tham gia cộng đồng và bắt đầu quản lý Docker registry hiệu quả hơn. Miễn phí, mã nguồn mở và sẵn sàng triển khai.",
+		"starOnGithub": "Star trên GitHub",
+		"viewDocumentation": "Xem tài liệu",
+		"footer": "Được xây dựng bởi các developer, cho các developer • Giấy phép MIT"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Tài liệu",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Mã nguồn mở theo giấy phép MIT."
+	}
+}
+

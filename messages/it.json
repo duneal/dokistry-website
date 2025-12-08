@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Gestisci i tuoi registry Docker self-hosted | Dokistry",
+		"description": "Monitora e gestisci i tuoi registry Docker self-hosted, immagini e utenti da un'unica interfaccia moderna."
+	},
+	"nav": {
+		"home": "Home",
+		"features": "Funzionalità",
+		"getStarted": "Inizia",
+		"selectLanguage": "Seleziona lingua"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Gestisci i registry Docker",
+		"titleHighlight": "con facilità",
+		"description": "Un'unica interfaccia moderna per monitorare e gestire i tuoi registry Docker self-hosted, immagini e utenti.",
+		"viewOnGithub": "Vedi su GitHub",
+		"exploreFeatures": "Esplora le funzionalità",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Registry",
+			"modernUi": "UI Moderna",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Tutto ciò di cui hai bisogno",
+		"subtitle": "Gestione completa dei registry Docker in un'interfaccia pulita",
+		"registryManagement": {
+			"title": "Gestione registry",
+			"description": "Monitora e gestisci registry Docker self-hosted con un'interfaccia intuitiva. Connetti più registry senza problemi."
+		},
+		"imageInspection": {
+			"title": "Ispezione immagini",
+			"description": "Visualizza informazioni dettagliate su immagini e dimensioni dei tag. Monitora l'utilizzo del disco nei tuoi registry."
+		},
+		"tagInspection": {
+			"title": "Ispezione tag",
+			"description": "Ispeziona e analizza i tag su ogni registry. Ottieni metadati completi a colpo d'occhio."
+		},
+		"tagsDeletion": {
+			"title": "Eliminazione tag",
+			"description": "Elimina i tag direttamente dall'interfaccia. Pulisci le risorse inutilizzate in modo efficiente."
+		},
+		"multiRegistry": {
+			"title": "Multi-registry",
+			"description": "Gestisci più registry da un'unica istanza. Passa da un registry all'altro senza sforzo."
+		},
+		"userManagement": {
+			"title": "Gestione utenti",
+			"description": "Aggiungi e gestisci utenti con privilegi di amministratore. Controlla l'accesso ai tuoi registry in modo sicuro."
+		}
+	},
+	"cta": {
+		"badge": "Progetto Open Source",
+		"title": "Inizia oggi",
+		"description": "Unisciti alla community e inizia a gestire i tuoi registry Docker in modo più efficiente. Gratuito, open source e pronto per il deploy.",
+		"starOnGithub": "Star su GitHub",
+		"viewDocumentation": "Vedi documentazione",
+		"footer": "Creato da sviluppatori, per sviluppatori • Licenza MIT"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Documentazione",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source con licenza MIT."
+	}
+}
+

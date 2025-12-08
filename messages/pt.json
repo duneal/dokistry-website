@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Gerencie seus registros Docker auto-hospedados | Dokistry",
+		"description": "Monitore e gerencie seus registros Docker auto-hospedados, imagens e usuários a partir de uma interface moderna única."
+	},
+	"nav": {
+		"home": "Início",
+		"features": "Recursos",
+		"getStarted": "Começar",
+		"selectLanguage": "Selecionar idioma"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Gerencie seus registros Docker",
+		"titleHighlight": "com facilidade",
+		"description": "Uma interface moderna única para monitorar e gerenciar seus registros Docker auto-hospedados, imagens e usuários.",
+		"viewOnGithub": "Ver no GitHub",
+		"exploreFeatures": "Explorar recursos",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Registros",
+			"modernUi": "UI Moderna",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Tudo o que você precisa",
+		"subtitle": "Gerenciamento completo de registros Docker em uma interface limpa",
+		"registryManagement": {
+			"title": "Gerenciamento de registros",
+			"description": "Monitore e gerencie registros Docker auto-hospedados com uma interface intuitiva. Conecte vários registros facilmente."
+		},
+		"imageInspection": {
+			"title": "Inspeção de imagens",
+			"description": "Visualize informações detalhadas sobre imagens e tamanhos de tags. Monitore o uso de disco em seus registros."
+		},
+		"tagInspection": {
+			"title": "Inspeção de tags",
+			"description": "Inspecione e analise tags em cada registro. Obtenha metadados completos rapidamente."
+		},
+		"tagsDeletion": {
+			"title": "Exclusão de tags",
+			"description": "Exclua tags diretamente pela interface. Limpe recursos não utilizados de forma eficiente."
+		},
+		"multiRegistry": {
+			"title": "Multi-registro",
+			"description": "Gerencie vários registros a partir de uma única instância. Alterne entre registros sem esforço."
+		},
+		"userManagement": {
+			"title": "Gerenciamento de usuários",
+			"description": "Adicione e gerencie usuários com privilégios de administrador. Controle o acesso aos seus registros com segurança."
+		}
+	},
+	"cta": {
+		"badge": "Projeto Open Source",
+		"title": "Comece hoje",
+		"description": "Junte-se à comunidade e comece a gerenciar seus registros Docker de forma mais eficiente. É gratuito, open source e pronto para implantar.",
+		"starOnGithub": "Star no GitHub",
+		"viewDocumentation": "Ver documentação",
+		"footer": "Criado por desenvolvedores, para desenvolvedores • Licença MIT"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Documentação",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source sob licença MIT."
+	}
+}
+

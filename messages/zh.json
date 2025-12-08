@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "管理您的自托管 Docker 注册表 | Dokistry",
+		"description": "通过单一现代界面监控和管理您的自托管 Docker 注册表、镜像和用户。"
+	},
+	"nav": {
+		"home": "首页",
+		"features": "功能",
+		"getStarted": "开始使用",
+		"selectLanguage": "选择语言"
+	},
+	"hero": {
+		"badge": "开源项目",
+		"title": "管理 Docker 注册表",
+		"titleHighlight": "轻松便捷",
+		"description": "一个现代化的统一界面，用于监控和管理您的自托管 Docker 注册表、镜像和用户。",
+		"viewOnGithub": "在 GitHub 上查看",
+		"exploreFeatures": "探索功能",
+		"stats": {
+			"openSource": "开源",
+			"registries": "注册表",
+			"modernUi": "现代 UI",
+			"openSourceValue": "100%",
+			"registriesValue": "多个",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "您需要的一切",
+		"subtitle": "在简洁的界面中完成 Docker 注册表的全面管理",
+		"registryManagement": {
+			"title": "注册表管理",
+			"description": "通过直观的界面监控和管理自托管 Docker 注册表。无缝连接多个注册表。"
+		},
+		"imageInspection": {
+			"title": "镜像检查",
+			"description": "查看镜像和标签大小的详细信息。监控注册表的磁盘使用情况。"
+		},
+		"tagInspection": {
+			"title": "标签检查",
+			"description": "检查和分析每个注册表上的标签。一目了然地获取完整的元数据。"
+		},
+		"tagsDeletion": {
+			"title": "标签删除",
+			"description": "直接从界面删除标签。高效清理未使用的资源。"
+		},
+		"multiRegistry": {
+			"title": "多注册表",
+			"description": "从单一实例管理多个注册表。轻松切换不同注册表。"
+		},
+		"userManagement": {
+			"title": "用户管理",
+			"description": "添加和管理具有管理员权限的用户。安全地控制对注册表的访问。"
+		}
+	},
+	"cta": {
+		"badge": "开源项目",
+		"title": "立即开始",
+		"description": "加入社区，更高效地管理您的 Docker 注册表。免费、开源，随时可部署。",
+		"starOnGithub": "在 GitHub 上加星",
+		"viewDocumentation": "查看文档",
+		"footer": "由开发者为开发者打造 • MIT 许可证"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "文档",
+		"issues": "问题",
+		"copyright": "© {year} Dokistry。MIT 许可证下的开源项目。"
+	}
+}
+

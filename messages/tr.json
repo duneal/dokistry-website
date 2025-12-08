@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Kendi barındırdığınız Docker kayıt defterlerini yönetin | Dokistry",
+		"description": "Kendi barındırdığınız Docker kayıt defterlerini, imajları ve kullanıcıları tek bir modern arayüzden izleyin ve yönetin."
+	},
+	"nav": {
+		"home": "Ana Sayfa",
+		"features": "Özellikler",
+		"getStarted": "Başla",
+		"selectLanguage": "Dil seçin"
+	},
+	"hero": {
+		"badge": "Açık Kaynak",
+		"title": "Docker kayıt defterlerini yönetin",
+		"titleHighlight": "kolayca",
+		"description": "Kendi barındırdığınız Docker kayıt defterlerini, imajları ve kullanıcıları izlemek ve yönetmek için tek bir modern arayüz.",
+		"viewOnGithub": "GitHub'da görüntüle",
+		"exploreFeatures": "Özellikleri keşfet",
+		"stats": {
+			"openSource": "Açık Kaynak",
+			"registries": "Kayıt Defterleri",
+			"modernUi": "Modern UI",
+			"openSourceValue": "%100",
+			"registriesValue": "Çoklu",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "İhtiyacınız olan her şey",
+		"subtitle": "Temiz bir arayüzde kapsamlı Docker kayıt defteri yönetimi",
+		"registryManagement": {
+			"title": "Kayıt Defteri Yönetimi",
+			"description": "Sezgisel bir arayüzle kendi barındırdığınız Docker kayıt defterlerini izleyin ve yönetin. Birden fazla kayıt defterini sorunsuz bağlayın."
+		},
+		"imageInspection": {
+			"title": "İmaj İncelemesi",
+			"description": "İmajlar ve etiket boyutları hakkında ayrıntılı bilgileri görüntüleyin. Kayıt defterlerinizdeki disk kullanımını izleyin."
+		},
+		"tagInspection": {
+			"title": "Etiket İncelemesi",
+			"description": "Her kayıt defterindeki etiketleri inceleyin ve analiz edin. Kapsamlı meta verileri bir bakışta alın."
+		},
+		"tagsDeletion": {
+			"title": "Etiket Silme",
+			"description": "Etiketleri doğrudan arayüzden silin. Kullanılmayan kaynakları verimli bir şekilde temizleyin."
+		},
+		"multiRegistry": {
+			"title": "Çoklu Kayıt Defteri",
+			"description": "Tek bir örnekten birden fazla kayıt defterini yönetin. Kayıt defterleri arasında zahmetsizce geçiş yapın."
+		},
+		"userManagement": {
+			"title": "Kullanıcı Yönetimi",
+			"description": "Yönetici ayrıcalıklarına sahip kullanıcılar ekleyin ve yönetin. Kayıt defterlerinize erişimi güvenli bir şekilde kontrol edin."
+		}
+	},
+	"cta": {
+		"badge": "Açık Kaynak Projesi",
+		"title": "Bugün başlayın",
+		"description": "Topluluğa katılın ve Docker kayıt defterlerinizi daha verimli yönetmeye başlayın. Ücretsiz, açık kaynak ve dağıtıma hazır.",
+		"starOnGithub": "GitHub'da yıldız ver",
+		"viewDocumentation": "Belgeleri görüntüle",
+		"footer": "Geliştiriciler tarafından, geliştiriciler için oluşturuldu • MIT Lisansı"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Belgeler",
+		"issues": "Sorunlar",
+		"copyright": "© {year} Dokistry. MIT Lisansı altında açık kaynak."
+	}
+}
+

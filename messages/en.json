@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Manage your self-hosted Docker registries | Dokistry",
+		"description": "Monitor and manage self-hosted Docker registries, images, and users from a single modern interface."
+	},
+	"nav": {
+		"home": "Home",
+		"features": "Features",
+		"getStarted": "Get Started",
+		"selectLanguage": "Select language"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Monitor Docker registries",
+		"titleHighlight": "with ease",
+		"description": "A single modern interface to monitor and manage your self-hosted Docker registries, images, and users.",
+		"viewOnGithub": "View on GitHub",
+		"exploreFeatures": "Explore Features",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Registries",
+			"modernUi": "Modern UI",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Everything You Need",
+		"subtitle": "Comprehensive Docker registry management in one clean interface",
+		"registryManagement": {
+			"title": "Registry Management",
+			"description": "Monitor and manage self-hosted Docker registries with an intuitive interface. Connect multiple registries seamlessly."
+		},
+		"imageInspection": {
+			"title": "Image Inspection",
+			"description": "View detailed information about images and tag sizes. Monitor disk usage across your registries."
+		},
+		"tagInspection": {
+			"title": "Tag Inspection",
+			"description": "Inspect and analyze tags on each registry. Get comprehensive metadata at a glance."
+		},
+		"tagsDeletion": {
+			"title": "Tags Deletion",
+			"description": "Delete tags directly from the interface. Clean up unused resources efficiently."
+		},
+		"multiRegistry": {
+			"title": "Multi-Registry",
+			"description": "Manage multiple registries from one instance. Switch between registries effortlessly."
+		},
+		"userManagement": {
+			"title": "User Management",
+			"description": "Add and manage users with admin privileges. Control access to your registries securely."
+		}
+	},
+	"cta": {
+		"badge": "Open Source Project",
+		"title": "Get Started Today",
+		"description": "Join the community and start managing your Docker registries more efficiently. It's free, open source, and ready to deploy.",
+		"starOnGithub": "Star on GitHub",
+		"viewDocumentation": "View Documentation",
+		"footer": "Built for developers, by developers • MIT Licensed"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Documentation",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source under MIT License."
+	}
+}
+

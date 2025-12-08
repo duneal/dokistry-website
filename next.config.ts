@@ -1,4 +1,7 @@
 import type { NextConfig } from "next"
+import createNextIntlPlugin from "next-intl/plugin"
+
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts")
 
 const cspHeader = `
   default-src 'self';
@@ -16,10 +19,9 @@ const cspHeader = `
 
 const nextConfig: NextConfig = {
 	reactStrictMode: true,
-	output: 'export',
+	output: "standalone",
 
 	images: {
-		unoptimized: true,
 		dangerouslyAllowSVG: true,
 		remotePatterns: [],
 	},
@@ -47,15 +49,15 @@ const nextConfig: NextConfig = {
 		},
 	},
 
-  webpack: (config) => {
+	webpack: (config) => {
 		// Handle SVG files with @svgr/webpack
 		config.module.rules.push({
 			test: /[.]svg$/,
-			use: ['@svgr/webpack'],
+			use: ["@svgr/webpack"],
 		})
 
 		return config
 	},
 }
 
-module.exports = nextConfig
+module.exports = withNextIntl(nextConfig)

@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "Spravujte své self-hosted Docker registry | Dokistry",
+		"description": "Monitorujte a spravujte své self-hosted Docker registry, image a uživatele z jednoho moderního rozhraní."
+	},
+	"nav": {
+		"home": "Domů",
+		"features": "Funkce",
+		"getStarted": "Začít",
+		"selectLanguage": "Vybrat jazyk"
+	},
+	"hero": {
+		"badge": "Open Source",
+		"title": "Spravujte Docker registry",
+		"titleHighlight": "snadno",
+		"description": "Jedno moderní rozhraní pro monitorování a správu vašich self-hosted Docker registry, imagů a uživatelů.",
+		"viewOnGithub": "Zobrazit na GitHubu",
+		"exploreFeatures": "Prozkoumat funkce",
+		"stats": {
+			"openSource": "Open Source",
+			"registries": "Registry",
+			"modernUi": "Moderní UI",
+			"openSourceValue": "100%",
+			"registriesValue": "Multi",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "Vše co potřebujete",
+		"subtitle": "Komplexní správa Docker registry v čistém rozhraní",
+		"registryManagement": {
+			"title": "Správa registry",
+			"description": "Monitorujte a spravujte self-hosted Docker registry s intuitivním rozhraním. Připojte více registrů bez problémů."
+		},
+		"imageInspection": {
+			"title": "Inspekce imagů",
+			"description": "Prohlédněte si detailní informace o imagích a velikostech tagů. Monitorujte využití disku ve vašich registry."
+		},
+		"tagInspection": {
+			"title": "Inspekce tagů",
+			"description": "Prozkoumejte a analyzujte tagy v každém registry. Získejte kompletní metadata na první pohled."
+		},
+		"tagsDeletion": {
+			"title": "Mazání tagů",
+			"description": "Mažte tagy přímo z rozhraní. Efektivně čistěte nepoužívané prostředky."
+		},
+		"multiRegistry": {
+			"title": "Multi-registry",
+			"description": "Spravujte více registry z jedné instance. Přepínejte mezi registry bez námahy."
+		},
+		"userManagement": {
+			"title": "Správa uživatelů",
+			"description": "Přidávejte a spravujte uživatele s admin právy. Bezpečně kontrolujte přístup k vašim registry."
+		}
+	},
+	"cta": {
+		"badge": "Open Source projekt",
+		"title": "Začněte ještě dnes",
+		"description": "Připojte se ke komunitě a začněte spravovat své Docker registry efektivněji. Zdarma, open source a připraveno k nasazení.",
+		"starOnGithub": "Star na GitHubu",
+		"viewDocumentation": "Zobrazit dokumentaci",
+		"footer": "Vytvořeno vývojáři pro vývojáře • MIT licence"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "Dokumentace",
+		"issues": "Issues",
+		"copyright": "© {year} Dokistry. Open source pod licencí MIT."
+	}
+}
+

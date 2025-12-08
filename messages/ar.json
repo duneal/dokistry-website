@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"title": "إدارة سجلات Docker المستضافة ذاتياً | Dokistry",
+		"description": "راقب وأدر سجلات Docker المستضافة ذاتياً والصور والمستخدمين من واجهة حديثة واحدة."
+	},
+	"nav": {
+		"home": "الرئيسية",
+		"features": "الميزات",
+		"getStarted": "ابدأ الآن",
+		"selectLanguage": "اختر اللغة"
+	},
+	"hero": {
+		"badge": "مفتوح المصدر",
+		"title": "إدارة سجلات Docker",
+		"titleHighlight": "بسهولة",
+		"description": "واجهة حديثة واحدة لمراقبة وإدارة سجلات Docker المستضافة ذاتياً والصور والمستخدمين.",
+		"viewOnGithub": "عرض على GitHub",
+		"exploreFeatures": "استكشف الميزات",
+		"stats": {
+			"openSource": "مفتوح المصدر",
+			"registries": "السجلات",
+			"modernUi": "واجهة حديثة",
+			"openSourceValue": "100%",
+			"registriesValue": "متعدد",
+			"modernUiValue": "React"
+		}
+	},
+	"features": {
+		"title": "كل ما تحتاجه",
+		"subtitle": "إدارة شاملة لسجلات Docker في واجهة نظيفة",
+		"registryManagement": {
+			"title": "إدارة السجلات",
+			"description": "راقب وأدر سجلات Docker المستضافة ذاتياً بواجهة بديهية. اربط سجلات متعددة بسلاسة."
+		},
+		"imageInspection": {
+			"title": "فحص الصور",
+			"description": "عرض معلومات تفصيلية عن الصور وأحجام الوسوم. راقب استخدام القرص في سجلاتك."
+		},
+		"tagInspection": {
+			"title": "فحص الوسوم",
+			"description": "افحص وحلل الوسوم في كل سجل. احصل على البيانات الوصفية الشاملة بلمحة."
+		},
+		"tagsDeletion": {
+			"title": "حذف الوسوم",
+			"description": "احذف الوسوم مباشرة من الواجهة. نظف الموارد غير المستخدمة بكفاءة."
+		},
+		"multiRegistry": {
+			"title": "سجلات متعددة",
+			"description": "أدر سجلات متعددة من مثيل واحد. انتقل بين السجلات بسهولة."
+		},
+		"userManagement": {
+			"title": "إدارة المستخدمين",
+			"description": "أضف وأدر المستخدمين بصلاحيات المسؤول. تحكم في الوصول إلى سجلاتك بأمان."
+		}
+	},
+	"cta": {
+		"badge": "مشروع مفتوح المصدر",
+		"title": "ابدأ اليوم",
+		"description": "انضم إلى المجتمع وابدأ في إدارة سجلات Docker بشكل أكثر كفاءة. مجاني، مفتوح المصدر وجاهز للنشر.",
+		"starOnGithub": "نجمة على GitHub",
+		"viewDocumentation": "عرض التوثيق",
+		"footer": "صنع بواسطة المطورين، للمطورين • رخصة MIT"
+	},
+	"footer": {
+		"github": "GitHub",
+		"documentation": "التوثيق",
+		"issues": "المشاكل",
+		"copyright": "© {year} Dokistry. مفتوح المصدر تحت رخصة MIT."
+	}
+}
+

@@ -2,46 +2,20 @@
 
 import { motion } from "framer-motion"
 import { Container, Eye, Layers, Tag, Trash2, Users } from "lucide-react"
+import { useTranslations } from "next-intl"
 
-const features = [
-	{
-		icon: Container,
-		title: "Registry Management",
-		description:
-			"Monitor and manage self-hosted Docker registries with an intuitive interface. Connect multiple registries seamlessly.",
-	},
-	{
-		icon: Eye,
-		title: "Image Inspection",
-		description:
-			"View detailed information about images and tag sizes. Monitor disk usage across your registries.",
-	},
-	{
-		icon: Tag,
-		title: "Tag Inspection",
-		description:
-			"Inspect and analyze tags on each registry. Get comprehensive metadata at a glance.",
-	},
-	{
-		icon: Trash2,
-		title: "Tags Deletion",
-		description: "Delete tags directly from the interface. Clean up unused resources efficiently.",
-	},
-	{
-		icon: Layers,
-		title: "Multi-Registry",
-		description:
-			"Manage multiple registries from one instance. Switch between registries effortlessly.",
-	},
-	{
-		icon: Users,
-		title: "User Management",
-		description:
-			"Add and manage users with admin privileges. Control access to your registries securely.",
-	},
-]
+const featureKeys = [
+	{ icon: Container, key: "registryManagement" },
+	{ icon: Eye, key: "imageInspection" },
+	{ icon: Tag, key: "tagInspection" },
+	{ icon: Trash2, key: "tagsDeletion" },
+	{ icon: Layers, key: "multiRegistry" },
+	{ icon: Users, key: "userManagement" },
+] as const
 
 export function Features() {
+	const t = useTranslations("features")
+
 	return (
 		<section id="features" className="py-24 relative overflow-hidden">
 			{/* Background effects - smooth transition from hero */}
@@ -55,16 +29,14 @@ export function Features() {
 					transition={{ duration: 0.6 }}
 					className="text-center mb-16"
 				>
-					<h2 className="font-grotesk text-4xl md:text-5xl font-bold mb-4">Everything You Need</h2>
-					<p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-						Comprehensive Docker registry management in one clean interface
-					</p>
+					<h2 className="font-grotesk text-4xl md:text-5xl font-bold mb-4">{t("title")}</h2>
+					<p className="text-xl text-muted-foreground max-w-2xl mx-auto">{t("subtitle")}</p>
 				</motion.div>
 
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-					{features.map((feature, index) => (
+					{featureKeys.map((feature, index) => (
 						<motion.div
-							key={index}
+							key={feature.key}
 							initial={{ opacity: 0, y: 20 }}
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
@@ -78,9 +50,13 @@ export function Features() {
 									<feature.icon className="w-6 h-6 text-primary" />
 								</div>
 
-								<h3 className="font-grotesk text-xl font-semibold mb-3">{feature.title}</h3>
+								<h3 className="font-grotesk text-xl font-semibold mb-3">
+									{t(`${feature.key}.title`)}
+								</h3>
 
-								<p className="text-muted-foreground leading-relaxed">{feature.description}</p>
+								<p className="text-muted-foreground leading-relaxed">
+									{t(`${feature.key}.description`)}
+								</p>
 							</div>
 						</motion.div>
 					))}
