@@ -15,7 +15,7 @@ upgrade-insecure-requests;
 export const securityHeaders = [
 	{
 		key: "Content-Security-Policy",
-		value: cspHeader.replace(/\s{2,}/g, " ").trim(),
+		value: cspHeader.replace(/\s+/g, " ").trim(),
 	},
 	{
 		key: "X-DNS-Prefetch-Control",
