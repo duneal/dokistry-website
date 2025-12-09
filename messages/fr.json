@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"title": "Dokistry - Gérez vos registres Docker auto-hébergés",
-		"description": "Gérez et gérez vos registres Docker auto-hébergés, images et utilisateurs depuis une interface moderne unique."
+		"description": "Gérez vos registres Docker auto-hébergés, images et utilisateurs depuis une interface moderne unique."
 	},
 	"nav": {
 		"home": "Accueil",
@@ -30,7 +30,7 @@
 		"subtitle": "Gestion complète des registres Docker dans une interface épurée",
 		"registryManagement": {
 			"title": "Gestion des registres",
-			"description": "Gérez et gérez vos registres Docker auto-hébergés avec une interface intuitive. Connectez plusieurs registres facilement."
+			"description": "Gérez vos registres Docker auto-hébergés avec une interface intuitive. Connectez plusieurs registres facilement."
 		},
 		"imageInspection": {
 			"title": "Inspection des images",

@@ -2,7 +2,6 @@ import { Toaster } from "@/app/_components/ui/sonner"
 import "@/app/globals.css"
 import type { Metadata, Viewport } from "next"
 import { notFound } from "next/navigation"
-import Script from "next/script"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server"
 import type { ReactNode } from "react"
@@ -86,14 +85,6 @@ export default async function LocaleLayout({ children, params }: Props) {
 
 	return (
 		<html lang={locale} suppressHydrationWarning>
-			<head>
-				<Script
-					defer
-					src="https://umami.duneal.com/script.js"
-					data-website-id="93713ebe-3b0f-4f8b-93eb-46ac0afefde4"
-					strategy="afterInteractive"
-				/>
-			</head>
 			<body className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}>
 				<NextIntlClientProvider messages={messages}>
 					<ThemeProvider
