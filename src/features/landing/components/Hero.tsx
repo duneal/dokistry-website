@@ -1,9 +1,12 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, Github } from "lucide-react"
+import { ArrowRight, Github, Sparkles } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Button } from "@/app/_components/ui/button"
+import { GitHubStars } from "./GitHubStars"
+
+const GITHUB_REPO = "duneal/dokistry"
 
 export function Hero() {
 	const t = useTranslations("hero")
@@ -30,15 +33,20 @@ export function Hero() {
 					transition={{ duration: 0.8 }}
 					className="text-center max-w-4xl mx-auto sm:mt-0 mt-[110px]"
 				>
-					{/* Badge */}
-					<motion.div
-						initial={{ opacity: 0, scale: 0.9 }}
-						animate={{ opacity: 1, scale: 1 }}
-						transition={{ delay: 0.2 }}
-						className=" items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 hidden sm:inline-flex"
-					>
-						<span className="text-sm font-medium text-primary">{t("badge")}</span>
-					</motion.div>
+					{/* Badges */}
+					<div className="flex flex-wrap items-center justify-center gap-3 mb-8">
+						<motion.div
+							initial={{ opacity: 0, scale: 0.9 }}
+							animate={{ opacity: 1, scale: 1 }}
+							transition={{ delay: 0.2 }}
+							className="items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 hidden sm:inline-flex"
+						>
+							<Sparkles className="h-3.5 w-3.5 text-primary" strokeWidth={2.5} />
+							<span className="text-sm font-medium text-primary">{t("badge")}</span>
+						</motion.div>
+
+						<GitHubStars repo={GITHUB_REPO} />
+					</div>
 
 					{/* Main heading */}
 					<motion.h1

@@ -304,3 +304,22 @@
 .light .section-cta-glow {
 	background: radial-gradient(circle at 30% 50%, oklch(57.25% 0.116 254.2 / 0.08), transparent 50%);
 }
+
+/* GitHub Stars shimmer animation */
+@keyframes shimmer {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.github-stars-shimmer {
+	background: linear-gradient(90deg, transparent, oklch(74.41% 0.067 253.63 / 0.08), transparent);
+	animation: shimmer 3s ease-in-out infinite;
+}
+
+.light .github-stars-shimmer {
+	background: linear-gradient(90deg, transparent, oklch(57.25% 0.116 254.2 / 0.12), transparent);
+}
