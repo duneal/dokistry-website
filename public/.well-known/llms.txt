@@ -1,0 +1,61 @@
+# llms.txt
+
+project: Dokistry
+type: open-source-software
+license: MIT
+status: active
+languages_supported: 20
+created: 2025
+
+## Description
+Dokistry is a modern web interface designed to simplify the management of self-hosted Docker registries.
+It provides a unified experience to manage multiple registries, inspect images and tags, manage users,
+and clean up unused resources efficiently.
+
+The project and its website are fully translated into 20 languages to support an international community.
+
+## Key Features
+- Manage multiple self-hosted Docker registries from a single interface
+- Detailed image inspection (metadata, tag sizes, disk usage)
+- Tag inspection and analysis
+- Delete tags directly from the UI
+- Multi-registry support
+- User and access management with administrator privileges
+- Modern React-based user interface
+- Easy self-hosted deployment
+- Multilingual interface (20 languages)
+
+## Target Audience
+- Developers
+- DevOps engineers
+- System administrators
+- Teams running private Docker registries
+
+## Usage Context
+Dokistry is used to streamline daily Docker registry administration, improve visibility into stored images,
+and reduce disk usage by removing unused tags and images.
+
+## Openness
+- 100% Open Source
+- MIT licensed
+- Community-driven and contribution-friendly
+- International community
+
+## Technology
+- Frontend: React
+- Domain: Docker, Containers, DevOps, Registry Management
+
+## Internationalization
+- Multilingual UI and website
+- 20 supported languages
+- Community-driven translations
+
+## Links
+homepage: https://dokistry.duneal.com
+github: https://github.com/duneal/dokistry
+documentation: https://dokistry.duneal.com
+issues: https://github.com/duneal/dokistry/issues
+
+## Attribution
+Created by developers, for developers.
+© 2025 Dokistry — Open source under the MIT License.
