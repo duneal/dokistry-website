@@ -9,6 +9,7 @@ import { type Locale, routing } from "@/i18n/routing"
 import { APP_URL } from "@/utils/constants/config"
 import { inter, spaceGrotesk } from "@/utils/fonts"
 import { ReactQueryProvider } from "@/utils/providers/ReactQueryProvider"
+import { SmoothScrollProvider } from "@/utils/providers/SmoothScrollProvider"
 import { ThemeProvider } from "@/utils/providers/ThemeProvider"
 
 export const revalidate = 300 // 5 minutes
@@ -93,9 +94,11 @@ export default async function LocaleLayout({ children, params }: Props) {
 						enableSystem
 						disableTransitionOnChange
 					>
-						<ReactQueryProvider>
-							<main className="min-h-screen">{children}</main>
-						</ReactQueryProvider>
+						<SmoothScrollProvider>
+							<ReactQueryProvider>
+								<main className="min-h-screen">{children}</main>
+							</ReactQueryProvider>
+						</SmoothScrollProvider>
 						<Toaster />
 					</ThemeProvider>
 				</NextIntlClientProvider>
