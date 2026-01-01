@@ -42,7 +42,7 @@ and reduce disk usage by removing unused tags and images.
 - International community
 
 ## Technology
-- Frontend: React
+- Frontend: Next.js (React)
 - Domain: Docker, Containers, DevOps, Registry Management
 
 ## Internationalization

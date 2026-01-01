@@ -29,10 +29,6 @@
 	"features": {
 		"title": "Semua yang Anda butuhkan",
 		"subtitle": "Manajemen Docker registry yang komprehensif dalam antarmuka yang bersih",
-		"registryManagement": {
-			"title": "Manajemen Registry",
-			"description": "Pantau dan kelola Docker registry yang di-hosting sendiri dengan antarmuka yang intuitif. Hubungkan beberapa registry dengan mulus."
-		},
 		"imageInspection": {
 			"title": "Inspeksi Image",
 			"description": "Lihat informasi detail tentang image dan ukuran tag. Pantau penggunaan disk di registry Anda."
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "Manajemen Pengguna",
 			"description": "Tambah dan kelola pengguna dengan hak admin. Kontrol akses ke registry Anda dengan aman."
+		},
+		"easyDeployment": {
+			"title": "Penyebaran Mudah",
+			"description": "Dapat disebarkan dengan satu klik melalui Dokploy atau melalui Docker Compose. Instalasi cepat dan sederhana."
 		}
 	},
 	"faq": {

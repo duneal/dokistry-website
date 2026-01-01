@@ -9,5 +9,7 @@ export const config = {
 	// - /_next (Next.js internals)
 	// - /images, /icons, /favicons (static files)
 	// - /favicon.ico, /sitemap.xml, /robots.txt (meta files)
-	matcher: ["/((?!api|_next|images|icons|favicons|videos|favicon.ico|sitemap.xml|robots.txt).*)"],
+	matcher: [
+		"/((?!api|_next|images|icons|favicons|videos|.well-known|favicon.ico|sitemap.xml|llms.txt|robots.txt).*)",
+	],
 }

@@ -29,10 +29,6 @@
 	"features": {
 		"title": "Alles wat u nodig heeft",
 		"subtitle": "Uitgebreid Docker registry beheer in een overzichtelijke interface",
-		"registryManagement": {
-			"title": "Registry beheer",
-			"description": "Monitor en beheer zelf-gehoste Docker registries met een intuïtieve interface. Verbind meerdere registries naadloos."
-		},
 		"imageInspection": {
 			"title": "Image inspectie",
 			"description": "Bekijk gedetailleerde informatie over images en tag groottes. Monitor schijfgebruik in uw registries."
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "Gebruikersbeheer",
 			"description": "Voeg gebruikers met admin-rechten toe en beheer ze. Beheer de toegang tot uw registries veilig."
+		},
+		"easyDeployment": {
+			"title": "Eenvoudige implementatie",
+			"description": "Implementeerbaar met één klik via Dokploy of via Docker Compose. Snelle en eenvoudige installatie."
 		}
 	},
 	"faq": {

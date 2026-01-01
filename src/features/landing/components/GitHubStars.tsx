@@ -1,7 +1,8 @@
 "use client"
 
-import { motion } from "framer-motion"
+import { motion, useSpring, useTransform } from "framer-motion"
 import { Github } from "lucide-react"
+import { useEffect } from "react"
 import { formatStarCount, useGitHubStars } from "@/utils/hooks/use-github-stars"
 
 interface GitHubStarsProps {
@@ -10,6 +11,22 @@ interface GitHubStarsProps {
 
 export function GitHubStars({ repo }: GitHubStarsProps) {
 	const { data: stars, isLoading } = useGitHubStars(repo)
+	const spring = useSpring(0, {
+		damping: 30,
+		stiffness: 100,
+		mass: 0.5,
+	})
+
+	useEffect(() => {
+		if (stars !== undefined && !isLoading) {
+			spring.set(stars)
+		}
+	}, [stars, isLoading, spring])
+
+	const displayValue = useTransform(spring, (latest) => {
+		if (latest === 0) return "0"
+		return formatStarCount(Math.round(latest))
+	})
 
 	return (
 		<motion.a
@@ -50,7 +67,7 @@ export function GitHubStars({ repo }: GitHubStarsProps) {
 						transition={{ duration: 0.3 }}
 						className="tabular-nums"
 					>
-						{stars !== undefined ? formatStarCount(stars) : "—"}
+						{stars !== undefined ? <motion.span>{displayValue}</motion.span> : "—"}
 					</motion.span>
 				)}
 			</span>

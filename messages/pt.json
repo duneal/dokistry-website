@@ -29,10 +29,6 @@
 	"features": {
 		"title": "Tudo o que você precisa",
 		"subtitle": "Gerenciamento completo de registros Docker em uma interface limpa",
-		"registryManagement": {
-			"title": "Gerenciamento de registros",
-			"description": "Monitore e gerencie registros Docker auto-hospedados com uma interface intuitiva. Conecte vários registros facilmente."
-		},
 		"imageInspection": {
 			"title": "Inspeção de imagens",
 			"description": "Visualize informações detalhadas sobre imagens e tamanhos de tags. Monitore o uso de disco em seus registros."
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "Gerenciamento de usuários",
 			"description": "Adicione e gerencie usuários com privilégios de administrador. Controle o acesso aos seus registros com segurança."
+		},
+		"easyDeployment": {
+			"title": "Implantação fácil",
+			"description": "Implantável com um clique via Dokploy ou via Docker Compose. Instalação rápida e simples."
 		}
 	},
 	"faq": {

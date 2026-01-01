@@ -29,10 +29,6 @@
 	"features": {
 		"title": "İhtiyacınız olan her şey",
 		"subtitle": "Temiz bir arayüzde kapsamlı Docker kayıt defteri yönetimi",
-		"registryManagement": {
-			"title": "Kayıt Defteri Yönetimi",
-			"description": "Sezgisel bir arayüzle kendi barındırdığınız Docker kayıt defterlerini izleyin ve yönetin. Birden fazla kayıt defterini sorunsuz bağlayın."
-		},
 		"imageInspection": {
 			"title": "İmaj İncelemesi",
 			"description": "İmajlar ve etiket boyutları hakkında ayrıntılı bilgileri görüntüleyin. Kayıt defterlerinizdeki disk kullanımını izleyin."
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "Kullanıcı Yönetimi",
 			"description": "Yönetici ayrıcalıklarına sahip kullanıcılar ekleyin ve yönetin. Kayıt defterlerinize erişimi güvenli bir şekilde kontrol edin."
+		},
+		"easyDeployment": {
+			"title": "Kolay Dağıtım",
+			"description": "Dokploy veya Docker Compose ile tek tıkla dağıtılabilir. Hızlı ve basit kurulum."
 		}
 	},
 	"faq": {

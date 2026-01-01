@@ -29,10 +29,6 @@
 	"features": {
 		"title": "Tất cả những gì bạn cần",
 		"subtitle": "Quản lý Docker registry toàn diện trong giao diện sạch sẽ",
-		"registryManagement": {
-			"title": "Quản lý Registry",
-			"description": "Giám sát và quản lý Docker registry tự lưu trữ với giao diện trực quan. Kết nối nhiều registry một cách liền mạch."
-		},
 		"imageInspection": {
 			"title": "Kiểm tra Image",
 			"description": "Xem thông tin chi tiết về image và kích thước tag. Giám sát sử dụng đĩa trong các registry của bạn."
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "Quản lý Người dùng",
 			"description": "Thêm và quản lý người dùng với quyền admin. Kiểm soát truy cập vào registry của bạn một cách an toàn."
+		},
+		"easyDeployment": {
+			"title": "Triển khai Dễ dàng",
+			"description": "Có thể triển khai bằng một cú nhấp qua Dokploy hoặc qua Docker Compose. Cài đặt nhanh chóng và đơn giản."
 		}
 	},
 	"faq": {

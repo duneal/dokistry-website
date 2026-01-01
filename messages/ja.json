@@ -29,10 +29,6 @@
 	"features": {
 		"title": "必要なすべてが揃っています",
 		"subtitle": "クリーンなインターフェースで Docker レジストリを包括的に管理",
-		"registryManagement": {
-			"title": "レジストリ管理",
-			"description": "直感的なインターフェースでセルフホストの Docker レジストリを監視・管理。複数のレジストリをシームレスに接続。"
-		},
 		"imageInspection": {
 			"title": "イメージ検査",
 			"description": "イメージとタグサイズの詳細情報を表示。レジストリ全体のディスク使用量を監視。"
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "ユーザー管理",
 			"description": "管理者権限を持つユーザーを追加・管理。レジストリへのアクセスを安全に制御。"
+		},
+		"easyDeployment": {
+			"title": "簡単なデプロイ",
+			"description": "Dokploy または Docker Compose でワンクリックでデプロイ可能。迅速で簡単なインストール。"
 		}
 	},
 	"faq": {

@@ -29,10 +29,6 @@
 	"features": {
 		"title": "Vše co potřebujete",
 		"subtitle": "Komplexní správa Docker registry v čistém rozhraní",
-		"registryManagement": {
-			"title": "Správa registry",
-			"description": "Monitorujte a spravujte self-hosted Docker registry s intuitivním rozhraním. Připojte více registrů bez problémů."
-		},
 		"imageInspection": {
 			"title": "Inspekce imagů",
 			"description": "Prohlédněte si detailní informace o imagích a velikostech tagů. Monitorujte využití disku ve vašich registry."
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "Správa uživatelů",
 			"description": "Přidávejte a spravujte uživatele s admin právy. Bezpečně kontrolujte přístup k vašim registry."
+		},
+		"easyDeployment": {
+			"title": "Snadné nasazení",
+			"description": "Nasaditelné jedním kliknutím přes Dokploy nebo přes Docker Compose. Rychlá a jednoduchá instalace."
 		}
 	},
 	"faq": {

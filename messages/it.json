@@ -29,10 +29,6 @@
 	"features": {
 		"title": "Tutto ciò di cui hai bisogno",
 		"subtitle": "Gestione completa dei registry Docker in un'interfaccia pulita",
-		"registryManagement": {
-			"title": "Gestione registry",
-			"description": "Monitora e gestisci registry Docker self-hosted con un'interfaccia intuitiva. Connetti più registry senza problemi."
-		},
 		"imageInspection": {
 			"title": "Ispezione immagini",
 			"description": "Visualizza informazioni dettagliate su immagini e dimensioni dei tag. Monitora l'utilizzo del disco nei tuoi registry."
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "Gestione utenti",
 			"description": "Aggiungi e gestisci utenti con privilegi di amministratore. Controlla l'accesso ai tuoi registry in modo sicuro."
+		},
+		"easyDeployment": {
+			"title": "Distribuzione facile",
+			"description": "Distribuibile con un clic tramite Dokploy o tramite Docker Compose. Installazione rapida e semplice."
 		}
 	},
 	"faq": {

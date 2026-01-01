@@ -29,10 +29,6 @@
 	"features": {
 		"title": "您需要的一切",
 		"subtitle": "在简洁的界面中完成 Docker 注册表的全面管理",
-		"registryManagement": {
-			"title": "注册表管理",
-			"description": "通过直观的界面监控和管理自托管 Docker 注册表。无缝连接多个注册表。"
-		},
 		"imageInspection": {
 			"title": "镜像检查",
 			"description": "查看镜像和标签大小的详细信息。监控注册表的磁盘使用情况。"
@@ -52,6 +48,10 @@
 		"userManagement": {
 			"title": "用户管理",
 			"description": "添加和管理具有管理员权限的用户。安全地控制对注册表的访问。"
+		},
+		"easyDeployment": {
+			"title": "轻松部署",
+			"description": "通过 Dokploy 或 Docker Compose 一键部署。快速简单的安装。"
 		}
 	},
 	"faq": {

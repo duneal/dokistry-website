@@ -1,16 +1,16 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Container, Eye, Layers, Tag, Trash2, Users } from "lucide-react"
+import { Eye, Layers, Rocket, Tag, Trash2, Users } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 const featureKeys = [
-	{ icon: Container, key: "registryManagement" },
+	{ icon: Layers, key: "multiRegistry" },
+	{ icon: Users, key: "userManagement" },
+	{ icon: Rocket, key: "easyDeployment" },
 	{ icon: Eye, key: "imageInspection" },
 	{ icon: Tag, key: "tagInspection" },
 	{ icon: Trash2, key: "tagsDeletion" },
-	{ icon: Layers, key: "multiRegistry" },
-	{ icon: Users, key: "userManagement" },
 ] as const
 
 export function Features() {
