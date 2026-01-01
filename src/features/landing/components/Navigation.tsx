@@ -16,7 +16,7 @@ export function Navigation() {
 	const navItems = [
 		{ label: t("home"), href: "#" },
 		{ label: t("features"), href: "#features" },
-		{ label: t("getStarted"), href: "#get-started" },
+		{ label: t("faq"), href: "#faq" },
 	]
 
 	return (

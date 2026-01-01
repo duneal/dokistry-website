@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Home",
 		"features": "Functies",
+		"faq": "FAQ",
 		"getStarted": "Aan de slag",
 		"selectLanguage": "Taal selecteren"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Gebruikersbeheer",
 			"description": "Voeg gebruikers met admin-rechten toe en beheer ze. Beheer de toegang tot uw registries veilig."
+		}
+	},
+	"faq": {
+		"title": "Veelgestelde vragen",
+		"subtitle": "Alles wat u moet weten over Dokistry",
+		"isItFree": {
+			"question": "Is Dokistry gratis?",
+			"answer": "Ja, Dokistry is volledig gratis en open source. Het wordt gedistribueerd onder de MIT-licentie, wat betekent dat u het vrij kunt gebruiken, wijzigen en distribueren, zelfs voor commerciële projecten."
+		},
+		"howToInstall": {
+			"question": "Hoe installeer ik Dokistry?",
+			"answer": "Dokistry kan eenvoudig worden geïmplementeerd via Docker Compose. Het is ook beschikbaar met één klik op Dokploy, wat een nog eenvoudigere en snellere implementatie mogelijk maakt."
+		},
+		"supportedRegistries": {
+			"question": "Welke Docker registries worden ondersteund?",
+			"answer": "Voorlopig ondersteunt Dokistry alleen de Docker Registry v2 API. Alle zelf-gehoste Docker registries die deze API gebruiken, worden ondersteund. Voorlopig ondersteunt het de APIs van Harbor, Nexus Repository en andere niet, maar dit kan worden geïmplementeerd op basis van de behoeften van de community."
+		},
+		"userManagement": {
+			"question": "Kan ik gebruikers aanmaken en toegang beheren?",
+			"answer": "Ja, Dokistry maakt het mogelijk om gebruikers aan te maken en te beheren. Er zijn twee rollen: beheerder en basislid. Beheerders kunnen registries en gebruikers beheren, terwijl basisleden geen registries of gebruikers kunnen beheren."
+		},
+		"howToContribute": {
+			"question": "Hoe kan ik bijdragen aan het project?",
+			"answer": "Er is een bijdragegids in de GitHub repository. U kunt bijdragen door nieuwe functies te ontwikkelen, documentatie te verbeteren, bugs te melden, verbeteringen voor te stellen of de interface te vertalen."
+		},
+		"reportBug": {
+			"question": "Waar kan ik een bug melden of een functie voorstellen?",
+			"answer": "U kunt bugs melden of nieuwe functies voorstellen via ons issue-systeem op GitHub. Controleer eerst of het probleem of de functie nog niet is gemeld voordat u een nieuwe issue aanmaakt."
+		},
+		"isItActive": {
+			"question": "Wordt het project nog actief ontwikkeld?",
+			"answer": "Ja, Dokistry is een actief project in continue ontwikkeling. We publiceren regelmatig updates, verbeteringen en nieuwe functies. U kunt onze voortgang volgen op GitHub en de nieuwste versies zien in de releases."
 		}
 	},
 	"cta": {

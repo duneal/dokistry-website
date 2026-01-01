@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Beranda",
 		"features": "Fitur",
+		"faq": "FAQ",
 		"getStarted": "Mulai",
 		"selectLanguage": "Pilih bahasa"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Manajemen Pengguna",
 			"description": "Tambah dan kelola pengguna dengan hak admin. Kontrol akses ke registry Anda dengan aman."
+		}
+	},
+	"faq": {
+		"title": "Pertanyaan yang Sering Diajukan",
+		"subtitle": "Semua yang perlu Anda ketahui tentang Dokistry",
+		"isItFree": {
+			"question": "Apakah Dokistry gratis?",
+			"answer": "Ya, Dokistry sepenuhnya gratis dan open source. Didistribusikan di bawah lisensi MIT, yang berarti Anda dapat menggunakannya, memodifikasinya, dan mendistribusikannya secara bebas, bahkan untuk proyek komersial."
+		},
+		"howToInstall": {
+			"question": "Bagaimana cara menginstal Dokistry?",
+			"answer": "Dokistry dapat dengan mudah di-deploy melalui Docker Compose. Juga tersedia dengan satu klik di Dokploy, yang memungkinkan deployment yang lebih sederhana dan cepat."
+		},
+		"supportedRegistries": {
+			"question": "Registry Docker mana yang didukung?",
+			"answer": "Saat ini, Dokistry hanya mendukung API Docker Registry v2. Semua registry Docker self-hosted yang menggunakan API ini didukung. Saat ini, tidak mendukung API Harbor, Nexus Repository dan lainnya, tetapi ini dapat diimplementasikan berdasarkan kebutuhan komunitas."
+		},
+		"userManagement": {
+			"question": "Bisakah saya membuat pengguna dan mengelola akses?",
+			"answer": "Ya, Dokistry memungkinkan Anda untuk membuat dan mengelola pengguna. Ada dua peran: administrator dan anggota dasar. Administrator dapat mengelola registry dan pengguna, sementara anggota dasar tidak dapat mengelola registry atau pengguna."
+		},
+		"howToContribute": {
+			"question": "Bagaimana saya bisa berkontribusi pada proyek?",
+			"answer": "Ada panduan kontribusi di repository GitHub. Anda dapat berkontribusi dengan mengembangkan fitur baru, meningkatkan dokumentasi, melaporkan bug, mengusulkan perbaikan, atau menerjemahkan antarmuka."
+		},
+		"reportBug": {
+			"question": "Di mana saya bisa melaporkan bug atau menyarankan fitur?",
+			"answer": "Anda dapat melaporkan bug atau menyarankan fitur baru melalui sistem issue kami di GitHub. Harap periksa terlebih dahulu apakah masalah atau fitur belum dilaporkan sebelum membuat issue baru."
+		},
+		"isItActive": {
+			"question": "Apakah proyek masih aktif dikembangkan?",
+			"answer": "Ya, Dokistry adalah proyek aktif dalam pengembangan berkelanjutan. Kami secara teratur menerbitkan pembaruan, peningkatan, dan fitur baru. Anda dapat mengikuti kemajuan kami di GitHub dan melihat versi terbaru di releases."
 		}
 	},
 	"cta": {

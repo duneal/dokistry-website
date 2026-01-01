@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "首页",
 		"features": "功能",
+		"faq": "常见问题",
 		"getStarted": "开始使用",
 		"selectLanguage": "选择语言"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "用户管理",
 			"description": "添加和管理具有管理员权限的用户。安全地控制对注册表的访问。"
+		}
+	},
+	"faq": {
+		"title": "常见问题",
+		"subtitle": "关于 Dokistry 您需要了解的一切",
+		"isItFree": {
+			"question": "Dokistry 是免费的吗？",
+			"answer": "是的，Dokistry 完全免费且开源。它在 MIT 许可证下分发，这意味着您可以自由使用、修改和分发它，甚至用于商业项目。"
+		},
+		"howToInstall": {
+			"question": "如何安装 Dokistry？",
+			"answer": "Dokistry 可以通过 Docker Compose 轻松部署。它也可以在 Dokploy 上一键使用，这使得部署更加简单快捷。"
+		},
+		"supportedRegistries": {
+			"question": "支持哪些 Docker 注册表？",
+			"answer": "目前，Dokistry 仅支持 Docker Registry v2 API。所有使用此 API 的自托管 Docker 注册表都受支持。目前，它不支持 Harbor、Nexus Repository 和其他 API，但可以根据社区需求实现。"
+		},
+		"userManagement": {
+			"question": "我可以创建用户并管理访问权限吗？",
+			"answer": "是的，Dokistry 允许创建和管理用户。有两种角色：管理员和基本成员。管理员可以管理注册表和用户，而基本成员不能管理注册表或用户。"
+		},
+		"howToContribute": {
+			"question": "我如何为项目做出贡献？",
+			"answer": "GitHub 存储库中有贡献指南。您可以通过开发新功能、改进文档、报告错误、提出改进建议或翻译界面来做出贡献。"
+		},
+		"reportBug": {
+			"question": "我在哪里可以报告错误或建议功能？",
+			"answer": "您可以通过我们在 GitHub 上的问题系统报告错误或建议新功能。在创建新问题之前，请先检查问题或功能是否已被报告。"
+		},
+		"isItActive": {
+			"question": "项目是否仍在积极开发中？",
+			"answer": "是的，Dokistry 是一个持续开发的活跃项目。我们定期发布更新、改进和新功能。您可以在 GitHub 上关注我们的进展，并在发布中查看最新版本。"
 		}
 	},
 	"cta": {

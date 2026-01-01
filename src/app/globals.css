@@ -254,27 +254,29 @@
 		linear-gradient(90deg, oklch(57.25% 0.116 254.2 / 0.08) 1px, transparent 1px);
 }
 
-/* Features section background - smooth transition */
+/* Features section background - modern gradient with subtle texture */
 .section-features-bg {
-	background: linear-gradient(
-		180deg,
-		oklch(0.13 0.015 254) 0%,
-		oklch(0.15 0.03 254) 20%,
-		oklch(0.17 0.04 254) 50%,
-		oklch(0.15 0.03 254) 80%,
-		oklch(0.13 0.015 254) 100%
-	);
+	background:
+		radial-gradient(circle at 20% 30%, oklch(74.41% 0.067 253.63 / 0.08), transparent 50%),
+		radial-gradient(circle at 80% 70%, oklch(57.25% 0.116 254.2 / 0.06), transparent 50%),
+		linear-gradient(
+			180deg,
+			oklch(0.13 0.015 254) 0%,
+			oklch(0.14 0.02 254) 50%,
+			oklch(0.13 0.015 254) 100%
+		);
 }
 
 .light .section-features-bg {
-	background: linear-gradient(
-		180deg,
-		oklch(95.83% 0.01 247.93) 0%,
-		oklch(91.52% 0.021 254.92) 20%,
-		oklch(91.52% 0.021 254.92) 50%,
-		oklch(91.52% 0.021 254.92) 80%,
-		oklch(95.83% 0.01 247.93) 100%
-	);
+	background:
+		radial-gradient(circle at 20% 30%, oklch(57.25% 0.116 254.2 / 0.06), transparent 50%),
+		radial-gradient(circle at 80% 70%, oklch(74.41% 0.067 253.63 / 0.04), transparent 50%),
+		linear-gradient(
+			180deg,
+			oklch(98.5% 0.003 247.93) 0%,
+			oklch(97% 0.006 254.92) 50%,
+			oklch(98.5% 0.003 247.93) 100%
+		);
 }
 
 /* CTA section background - smooth transition */
@@ -322,4 +324,23 @@
 
 .light .github-stars-shimmer {
 	background: linear-gradient(90deg, transparent, oklch(57.25% 0.116 254.2 / 0.12), transparent);
+}
+
+/* FAQ section background - smooth transition with subtle transparency */
+.section-faq-bg {
+	background: linear-gradient(
+		180deg,
+		oklch(0.13 0.015 254) 0%,
+		oklch(0.14 0.018 254) 50%,
+		oklch(0.13 0.015 254) 100%
+	);
+}
+
+.light .section-faq-bg {
+	background: linear-gradient(
+		180deg,
+		oklch(98% 0.005 247.93) 0%,
+		oklch(97% 0.008 254.92) 50%,
+		oklch(98% 0.005 247.93) 100%
+	);
 }

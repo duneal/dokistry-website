@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Domů",
 		"features": "Funkce",
+		"faq": "FAQ",
 		"getStarted": "Začít",
 		"selectLanguage": "Vybrat jazyk"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Správa uživatelů",
 			"description": "Přidávejte a spravujte uživatele s admin právy. Bezpečně kontrolujte přístup k vašim registry."
+		}
+	},
+	"faq": {
+		"title": "Často kladené otázky",
+		"subtitle": "Vše co potřebujete vědět o Dokistry",
+		"isItFree": {
+			"question": "Je Dokistry zdarma?",
+			"answer": "Ano, Dokistry je zcela zdarma a open source. Je distribuováno pod licencí MIT, což znamená, že ho můžete volně používat, upravovat a distribuovat, dokonce i pro komerční projekty."
+		},
+		"howToInstall": {
+			"question": "Jak nainstalovat Dokistry?",
+			"answer": "Dokistry lze snadno nasadit pomocí Docker Compose. Je také k dispozici jedním kliknutím na Dokploy, což umožňuje ještě jednodušší a rychlejší nasazení."
+		},
+		"supportedRegistries": {
+			"question": "Které Docker registry jsou podporovány?",
+			"answer": "V současné době Dokistry podporuje pouze API Docker Registry v2. Všechna self-hosted Docker registry používající toto API jsou podporována. V současné době nepodporuje API Harbor, Nexus Repository a další, ale toto může být implementováno na základě potřeb komunity."
+		},
+		"userManagement": {
+			"question": "Mohu vytvářet uživatele a spravovat přístup?",
+			"answer": "Ano, Dokistry umožňuje vytvářet a spravovat uživatele. Existují dvě role: administrátor a základní člen. Administrátoři mohou spravovat registry a uživatele, zatímco základní členové nemohou spravovat registry ani uživatele."
+		},
+		"howToContribute": {
+			"question": "Jak mohu přispět k projektu?",
+			"answer": "V GitHub úložišti je průvodce přispíváním. Můžete přispět vývojem nových funkcí, zlepšováním dokumentace, hlášením chyb, navrhováním vylepšení nebo překládáním rozhraní."
+		},
+		"reportBug": {
+			"question": "Kde mohu nahlásit chybu nebo navrhnout funkci?",
+			"answer": "Můžete nahlásit chyby nebo navrhnout nové funkce prostřednictvím našeho systému issues na GitHubu. Nejdříve prosím zkontrolujte, zda problém nebo funkce již nebyl nahlášen před vytvořením nového issue."
+		},
+		"isItActive": {
+			"question": "Je projekt stále aktivně vyvíjen?",
+			"answer": "Ano, Dokistry je aktivní projekt v kontinuálním vývoji. Pravidelně publikujeme aktualizace, vylepšení a nové funkce. Můžete sledovat náš pokrok na GitHubu a vidět nejnovější verze v releases."
 		}
 	},
 	"cta": {

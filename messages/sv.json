@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Hem",
 		"features": "Funktioner",
+		"faq": "FAQ",
 		"getStarted": "Kom igång",
 		"selectLanguage": "Välj språk"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Användarhantering",
 			"description": "Lägg till och hantera användare med admin-behörigheter. Kontrollera åtkomst till dina register säkert."
+		}
+	},
+	"faq": {
+		"title": "Vanliga frågor",
+		"subtitle": "Allt du behöver veta om Dokistry",
+		"isItFree": {
+			"question": "Är Dokistry gratis?",
+			"answer": "Ja, Dokistry är helt gratis och öppen källkod. Det distribueras under MIT-licensen, vilket betyder att du kan använda, modifiera och distribuera det fritt, även för kommersiella projekt."
+		},
+		"howToInstall": {
+			"question": "Hur installerar jag Dokistry?",
+			"answer": "Dokistry kan enkelt distribueras via Docker Compose. Det är också tillgängligt med ett klick på Dokploy, vilket möjliggör en ännu enklare och snabbare distribution."
+		},
+		"supportedRegistries": {
+			"question": "Vilka Docker-register stöds?",
+			"answer": "För närvarande stöder Dokistry endast Docker Registry v2 API. Alla självhostade Docker-register som använder denna API stöds. För närvarande stöder det inte Harbor, Nexus Repository och andra API:er, men detta kan implementeras baserat på communityns behov."
+		},
+		"userManagement": {
+			"question": "Kan jag skapa användare och hantera åtkomst?",
+			"answer": "Ja, Dokistry gör det möjligt att skapa och hantera användare. Det finns två roller: administratör och grundmedlem. Administratörer kan hantera register och användare, medan grundmedlemmar inte kan hantera register eller användare."
+		},
+		"howToContribute": {
+			"question": "Hur kan jag bidra till projektet?",
+			"answer": "Det finns en bidragsguide i GitHub-förvaret. Du kan bidra genom att utveckla nya funktioner, förbättra dokumentationen, rapportera buggar, föreslå förbättringar eller översätta gränssnittet."
+		},
+		"reportBug": {
+			"question": "Var kan jag rapportera en bugg eller föreslå en funktion?",
+			"answer": "Du kan rapportera buggar eller föreslå nya funktioner via vårt issue-system på GitHub. Kontrollera först om problemet eller funktionen inte redan har rapporterats innan du skapar en ny issue."
+		},
+		"isItActive": {
+			"question": "Utvecklas projektet fortfarande aktivt?",
+			"answer": "Ja, Dokistry är ett aktivt projekt i kontinuerlig utveckling. Vi publicerar regelbundet uppdateringar, förbättringar och nya funktioner. Du kan följa vår framsteg på GitHub och se de senaste versionerna i releases."
 		}
 	},
 	"cta": {

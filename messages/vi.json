@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Trang chủ",
 		"features": "Tính năng",
+		"faq": "Câu hỏi thường gặp",
 		"getStarted": "Bắt đầu",
 		"selectLanguage": "Chọn ngôn ngữ"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Quản lý Người dùng",
 			"description": "Thêm và quản lý người dùng với quyền admin. Kiểm soát truy cập vào registry của bạn một cách an toàn."
+		}
+	},
+	"faq": {
+		"title": "Câu hỏi thường gặp",
+		"subtitle": "Tất cả những gì bạn cần biết về Dokistry",
+		"isItFree": {
+			"question": "Dokistry có miễn phí không?",
+			"answer": "Có, Dokistry hoàn toàn miễn phí và mã nguồn mở. Nó được phân phối theo giấy phép MIT, có nghĩa là bạn có thể sử dụng, sửa đổi và phân phối tự do, ngay cả cho các dự án thương mại."
+		},
+		"howToInstall": {
+			"question": "Làm thế nào để cài đặt Dokistry?",
+			"answer": "Dokistry có thể được triển khai dễ dàng qua Docker Compose. Nó cũng có sẵn với một cú nhấp chuột trên Dokploy, cho phép triển khai đơn giản và nhanh chóng hơn."
+		},
+		"supportedRegistries": {
+			"question": "Registry Docker nào được hỗ trợ?",
+			"answer": "Hiện tại, Dokistry chỉ hỗ trợ API Docker Registry v2. Tất cả các registry Docker tự lưu trữ sử dụng API này đều được hỗ trợ. Hiện tại, nó không hỗ trợ các API của Harbor, Nexus Repository và các API khác, nhưng điều này có thể được thực hiện dựa trên nhu cầu của cộng đồng."
+		},
+		"userManagement": {
+			"question": "Tôi có thể tạo người dùng và quản lý quyền truy cập không?",
+			"answer": "Có, Dokistry cho phép bạn tạo và quản lý người dùng. Có hai vai trò: quản trị viên và thành viên cơ bản. Quản trị viên có thể quản lý registry và người dùng, trong khi thành viên cơ bản không thể quản lý registry hoặc người dùng."
+		},
+		"howToContribute": {
+			"question": "Làm thế nào tôi có thể đóng góp cho dự án?",
+			"answer": "Có hướng dẫn đóng góp trong kho lưu trữ GitHub. Bạn có thể đóng góp bằng cách phát triển tính năng mới, cải thiện tài liệu, báo cáo lỗi, đề xuất cải tiến hoặc dịch giao diện."
+		},
+		"reportBug": {
+			"question": "Tôi có thể báo cáo lỗi hoặc đề xuất tính năng ở đâu?",
+			"answer": "Bạn có thể báo cáo lỗi hoặc đề xuất tính năng mới thông qua hệ thống issue của chúng tôi trên GitHub. Vui lòng kiểm tra xem vấn đề hoặc tính năng đã được báo cáo chưa trước khi tạo issue mới."
+		},
+		"isItActive": {
+			"question": "Dự án có còn đang được phát triển tích cực không?",
+			"answer": "Có, Dokistry là một dự án đang hoạt động trong quá trình phát triển liên tục. Chúng tôi thường xuyên xuất bản cập nhật, cải tiến và tính năng mới. Bạn có thể theo dõi tiến trình của chúng tôi trên GitHub và xem các phiên bản mới nhất trong phần releases."
 		}
 	},
 	"cta": {

@@ -17,7 +17,7 @@ export function Features() {
 	const t = useTranslations("features")
 
 	return (
-		<section id="features" className="py-24 relative overflow-hidden">
+		<section id="features" className="py-24 pb-16 relative overflow-hidden">
 			{/* Background effects - smooth transition from hero */}
 			<div className="absolute inset-0 section-features-bg" />
 
@@ -33,7 +33,7 @@ export function Features() {
 					<p className="text-xl text-muted-foreground max-w-2xl mx-auto">{t("subtitle")}</p>
 				</motion.div>
 
-				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-7xl mx-auto">
 					{featureKeys.map((feature, index) => (
 						<motion.div
 							key={feature.key}
@@ -43,20 +43,32 @@ export function Features() {
 							transition={{ duration: 0.5, delay: index * 0.1 }}
 							className="group relative"
 						>
-							<div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+							{/* Animated gradient glow on hover */}
+							<div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10" />
 
-							<div className="relative bg-card border border-border/50 rounded-lg p-6 h-full hover:border-primary/30 shadow-card transform transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg">
-								<div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
-									<feature.icon className="w-6 h-6 text-primary" />
+							{/* Main card with glassmorphism effect */}
+							<div className="relative bg-card/50 dark:bg-card/70 backdrop-blur-md border border-border/40 dark:border-border/50 rounded-xl p-6 h-full overflow-hidden transform transition-all duration-300 ease-out hover:-translate-y-1 hover:border-primary/50 dark:hover:border-primary/40 hover:shadow-xl hover:shadow-primary/10 dark:hover:shadow-primary/20">
+								{/* Subtle gradient overlay */}
+								<div className="absolute inset-0 bg-gradient-to-br from-primary/0 via-primary/0 to-primary/5 dark:to-primary/10 group-hover:from-primary/5 group-hover:via-primary/3 group-hover:to-primary/10 dark:group-hover:from-primary/10 dark:group-hover:via-primary/5 dark:group-hover:to-primary/15 transition-all duration-500 pointer-events-none" />
+
+								{/* Decorative corner accent */}
+								<div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/0 to-primary/5 dark:to-primary/10 rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+
+								<div className="relative z-10">
+									{/* Icon with animated background */}
+									<div className="relative w-14 h-14 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 flex items-center justify-center mb-5 group-hover:from-primary/20 group-hover:to-primary/10 dark:group-hover:from-primary/30 dark:group-hover:to-primary/15 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
+										<div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+										<feature.icon className="w-7 h-7 text-primary relative z-10 group-hover:scale-110 transition-transform duration-300" />
+									</div>
+
+									<h3 className="font-grotesk text-xl font-semibold mb-3 text-foreground group-hover:text-primary transition-colors duration-300">
+										{t(`${feature.key}.title`)}
+									</h3>
+
+									<p className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">
+										{t(`${feature.key}.description`)}
+									</p>
 								</div>
-
-								<h3 className="font-grotesk text-xl font-semibold mb-3">
-									{t(`${feature.key}.title`)}
-								</h3>
-
-								<p className="text-muted-foreground leading-relaxed">
-									{t(`${feature.key}.description`)}
-								</p>
 							</div>
 						</motion.div>
 					))}

@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Início",
 		"features": "Recursos",
+		"faq": "FAQ",
 		"getStarted": "Começar",
 		"selectLanguage": "Selecionar idioma"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Gerenciamento de usuários",
 			"description": "Adicione e gerencie usuários com privilégios de administrador. Controle o acesso aos seus registros com segurança."
+		}
+	},
+	"faq": {
+		"title": "Perguntas frequentes",
+		"subtitle": "Tudo o que você precisa saber sobre Dokistry",
+		"isItFree": {
+			"question": "O Dokistry é gratuito?",
+			"answer": "Sim, o Dokistry é completamente gratuito e open source. É distribuído sob a licença MIT, o que significa que você pode usá-lo, modificá-lo e distribuí-lo livremente, mesmo para projetos comerciais."
+		},
+		"howToInstall": {
+			"question": "Como instalar o Dokistry?",
+			"answer": "O Dokistry pode ser facilmente implantado via Docker Compose. Também está disponível com um clique no Dokploy, o que permite uma implantação ainda mais simples e rápida."
+		},
+		"supportedRegistries": {
+			"question": "Quais registros Docker são suportados?",
+			"answer": "Por enquanto, o Dokistry suporta apenas a API Docker Registry v2. Todos os registros Docker auto-hospedados que usam esta API são suportados. Por enquanto, não suporta as APIs do Harbor, Nexus Repository e outras, mas isso pode ser implementado com base nas necessidades da comunidade."
+		},
+		"userManagement": {
+			"question": "Posso criar usuários e gerenciar acessos?",
+			"answer": "Sim, o Dokistry permite criar e gerenciar usuários. Existem dois papéis: administrador e membro básico. Os administradores podem gerenciar registros e usuários, enquanto os membros básicos não podem gerenciar registros nem usuários."
+		},
+		"howToContribute": {
+			"question": "Como posso contribuir para o projeto?",
+			"answer": "Existe um guia de contribuição no repositório GitHub. Você pode contribuir desenvolvendo novos recursos, melhorando a documentação, relatando bugs, propondo melhorias ou traduzindo a interface."
+		},
+		"reportBug": {
+			"question": "Onde posso reportar um bug ou sugerir um recurso?",
+			"answer": "Você pode reportar bugs ou sugerir novos recursos através do nosso sistema de issues no GitHub. Por favor, verifique primeiro se o problema ou recurso já não foi reportado antes de criar uma nova issue."
+		},
+		"isItActive": {
+			"question": "O projeto ainda está em desenvolvimento ativo?",
+			"answer": "Sim, o Dokistry é um projeto ativo em desenvolvimento contínuo. Publicamos regularmente atualizações, melhorias e novos recursos. Você pode acompanhar nosso progresso no GitHub e ver as últimas versões nos releases."
 		}
 	},
 	"cta": {

@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Ana Sayfa",
 		"features": "Özellikler",
+		"faq": "SSS",
 		"getStarted": "Başla",
 		"selectLanguage": "Dil seçin"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Kullanıcı Yönetimi",
 			"description": "Yönetici ayrıcalıklarına sahip kullanıcılar ekleyin ve yönetin. Kayıt defterlerinize erişimi güvenli bir şekilde kontrol edin."
+		}
+	},
+	"faq": {
+		"title": "Sıkça Sorulan Sorular",
+		"subtitle": "Dokistry hakkında bilmeniz gereken her şey",
+		"isItFree": {
+			"question": "Dokistry ücretsiz mi?",
+			"answer": "Evet, Dokistry tamamen ücretsiz ve açık kaynaklıdır. MIT lisansı altında dağıtılır, bu da ticari projeler dahil olmak üzere özgürce kullanabileceğiniz, değiştirebileceğiniz ve dağıtabileceğiniz anlamına gelir."
+		},
+		"howToInstall": {
+			"question": "Dokistry nasıl kurulur?",
+			"answer": "Dokistry, Docker Compose aracılığıyla kolayca dağıtılabilir. Ayrıca Dokploy'da tek tıkla kullanılabilir, bu da daha da basit ve hızlı bir dağıtım sağlar."
+		},
+		"supportedRegistries": {
+			"question": "Hangi Docker kayıt defterleri destekleniyor?",
+			"answer": "Şu anda Dokistry yalnızca Docker Registry v2 API'sini desteklemektedir. Bu API'yi kullanan tüm kendi barındırdığınız Docker kayıt defterleri desteklenmektedir. Şu anda Harbor, Nexus Repository ve diğer API'leri desteklemiyor, ancak bu topluluk ihtiyaçlarına göre uygulanabilir."
+		},
+		"userManagement": {
+			"question": "Kullanıcı oluşturabilir ve erişimi yönetebilir miyim?",
+			"answer": "Evet, Dokistry kullanıcıları oluşturmanıza ve yönetmenize olanak tanır. İki rol vardır: yönetici ve temel üye. Yöneticiler kayıt defterlerini ve kullanıcıları yönetebilirken, temel üyeler kayıt defterlerini veya kullanıcıları yönetemez."
+		},
+		"howToContribute": {
+			"question": "Projeye nasıl katkıda bulunabilirim?",
+			"answer": "GitHub deposunda bir katkı rehberi bulunmaktadır. Yeni özellikler geliştirerek, belgeleri iyileştirerek, hataları bildirerek, iyileştirmeler önererek veya arayüzü çevirerek katkıda bulunabilirsiniz."
+		},
+		"reportBug": {
+			"question": "Bir hata bildirmek veya özellik önermek için nereye gidebilirim?",
+			"answer": "GitHub'daki issue sistemimiz aracılığıyla hataları bildirebilir veya yeni özellikler önerebilirsiniz. Yeni bir issue oluşturmadan önce lütfen sorunun veya özelliğin zaten bildirilip bildirilmediğini kontrol edin."
+		},
+		"isItActive": {
+			"question": "Proje hala aktif olarak geliştiriliyor mu?",
+			"answer": "Evet, Dokistry sürekli geliştirilen aktif bir projedir. Düzenli olarak güncellemeler, iyileştirmeler ve yeni özellikler yayınlıyoruz. GitHub'da ilerlememizi takip edebilir ve sürümlerdeki en son sürümleri görebilirsiniz."
 		}
 	},
 	"cta": {

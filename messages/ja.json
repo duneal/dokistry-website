@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "ホーム",
 		"features": "機能",
+		"faq": "よくある質問",
 		"getStarted": "始める",
 		"selectLanguage": "言語を選択"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "ユーザー管理",
 			"description": "管理者権限を持つユーザーを追加・管理。レジストリへのアクセスを安全に制御。"
+		}
+	},
+	"faq": {
+		"title": "よくある質問",
+		"subtitle": "Dokistryについて知っておくべきすべて",
+		"isItFree": {
+			"question": "Dokistryは無料ですか？",
+			"answer": "はい、Dokistryは完全に無料でオープンソースです。MITライセンスの下で配布されており、商用プロジェクトを含め、自由に使用、変更、配布できます。"
+		},
+		"howToInstall": {
+			"question": "Dokistryのインストール方法は？",
+			"answer": "DokistryはDocker Composeを使用して簡単にデプロイできます。Dokployでワンクリックで利用可能で、さらに簡単で迅速なデプロイメントが可能です。"
+		},
+		"supportedRegistries": {
+			"question": "どのDockerレジストリがサポートされていますか？",
+			"answer": "現時点では、DokistryはDocker Registry v2 APIのみをサポートしています。このAPIを使用するすべてのセルフホストDockerレジストリがサポートされています。現時点では、Harbor、Nexus RepositoryなどのAPIはサポートされていませんが、コミュニティのニーズに応じて実装できます。"
+		},
+		"userManagement": {
+			"question": "ユーザーを作成してアクセスを管理できますか？",
+			"answer": "はい、Dokistryではユーザーを作成および管理できます。2つの役割があります：管理者と基本メンバー。管理者はレジストリとユーザーを管理できますが、基本メンバーはレジストリやユーザーを管理できません。"
+		},
+		"howToContribute": {
+			"question": "プロジェクトに貢献するにはどうすればよいですか？",
+			"answer": "GitHubリポジトリに貢献ガイドがあります。新機能の開発、ドキュメントの改善、バグの報告、改善の提案、またはインターフェースの翻訳によって貢献できます。"
+		},
+		"reportBug": {
+			"question": "バグを報告したり機能を提案したりするにはどこで行えばよいですか？",
+			"answer": "GitHubのissueシステムを通じてバグを報告したり新機能を提案したりできます。新しいissueを作成する前に、問題や機能が既に報告されていないか確認してください。"
+		},
+		"isItActive": {
+			"question": "プロジェクトはまだ積極的に開発されていますか？",
+			"answer": "はい、Dokistryは継続的に開発されているアクティブなプロジェクトです。定期的にアップデート、改善、新機能を公開しています。GitHubで進捗をフォローし、リリースで最新バージョンを確認できます。"
 		}
 	},
 	"cta": {

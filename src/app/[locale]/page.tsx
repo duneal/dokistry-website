@@ -1,5 +1,5 @@
 import { setRequestLocale } from "next-intl/server"
-import { CTA, Features, Footer, Hero, Navigation } from "@/features/landing"
+import { CTA, FAQ, Features, Footer, Hero, Navigation } from "@/features/landing"
 
 type Props = {
 	params: Promise<{ locale: string }>
@@ -14,6 +14,7 @@ export default async function Home({ params }: Props) {
 			<Navigation />
 			<Hero />
 			<Features />
+			<FAQ />
 			<CTA />
 			<Footer />
 		</div>

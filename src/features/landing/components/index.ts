@@ -1,4 +1,5 @@
 export { CTA } from "./CTA"
+export { FAQ } from "./FAQ"
 export { Features } from "./Features"
 export { Footer } from "./Footer"
 export { GitHubStars } from "./GitHubStars"

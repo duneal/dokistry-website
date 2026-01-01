@@ -6,6 +6,7 @@
 	"nav": {
 		"home": "Strona główna",
 		"features": "Funkcje",
+		"faq": "FAQ",
 		"getStarted": "Rozpocznij",
 		"selectLanguage": "Wybierz język"
 	},
@@ -51,6 +52,38 @@
 		"userManagement": {
 			"title": "Zarządzanie użytkownikami",
 			"description": "Dodawaj i zarządzaj użytkownikami z uprawnieniami administratora. Bezpiecznie kontroluj dostęp do swoich rejestrów."
+		}
+	},
+	"faq": {
+		"title": "Często zadawane pytania",
+		"subtitle": "Wszystko co musisz wiedzieć o Dokistry",
+		"isItFree": {
+			"question": "Czy Dokistry jest darmowe?",
+			"answer": "Tak, Dokistry jest całkowicie darmowe i open source. Jest dystrybuowane na licencji MIT, co oznacza, że możesz go używać, modyfikować i rozpowszechniać swobodnie, nawet w projektach komercyjnych."
+		},
+		"howToInstall": {
+			"question": "Jak zainstalować Dokistry?",
+			"answer": "Dokistry można łatwo wdrożyć za pomocą Docker Compose. Jest również dostępne jednym kliknięciem na Dokploy, co pozwala na jeszcze prostsze i szybsze wdrożenie."
+		},
+		"supportedRegistries": {
+			"question": "Które rejestry Docker są obsługiwane?",
+			"answer": "Na razie Dokistry obsługuje tylko API Docker Registry v2. Wszystkie samodzielnie hostowane rejestry Docker używające tego API są obsługiwane. Na razie nie obsługuje API Harbor, Nexus Repository i innych, ale może to zostać zaimplementowane w zależności od potrzeb społeczności."
+		},
+		"userManagement": {
+			"question": "Czy mogę tworzyć użytkowników i zarządzać dostępem?",
+			"answer": "Tak, Dokistry umożliwia tworzenie i zarządzanie użytkownikami. Istnieją dwie role: administrator i członek podstawowy. Administratorzy mogą zarządzać rejestrami i użytkownikami, podczas gdy członkowie podstawowi nie mogą zarządzać rejestrami ani użytkownikami."
+		},
+		"howToContribute": {
+			"question": "Jak mogę przyczynić się do projektu?",
+			"answer": "W repozytorium GitHub znajduje się przewodnik dotyczący wkładu. Możesz przyczynić się poprzez rozwijanie nowych funkcji, ulepszanie dokumentacji, zgłaszanie błędów, proponowanie ulepszeń lub tłumaczenie interfejsu."
+		},
+		"reportBug": {
+			"question": "Gdzie mogę zgłosić błąd lub zaproponować funkcję?",
+			"answer": "Możesz zgłaszać błędy lub proponować nowe funkcje poprzez nasz system issues na GitHub. Proszę najpierw sprawdzić, czy problem lub funkcja nie zostały już zgłoszone przed utworzeniem nowego issue."
+		},
+		"isItActive": {
+			"question": "Czy projekt jest nadal aktywnie rozwijany?",
+			"answer": "Tak, Dokistry to aktywny projekt w ciągłym rozwoju. Regularnie publikujemy aktualizacje, ulepszenia i nowe funkcje. Możesz śledzić nasz postęp na GitHub i zobaczyć najnowsze wersje w wydaniach."
 		}
 	},
 	"cta": {
