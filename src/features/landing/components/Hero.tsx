@@ -5,6 +5,7 @@ import { ArrowRight, Github, Sparkles } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Button } from "@/app/_components/ui/button"
 import { GitHubStars } from "./GitHubStars"
+import { VideoPlayer } from "./VideoPlayer"
 
 const GITHUB_REPO = "duneal/dokistry"
 
@@ -18,7 +19,7 @@ export function Hero() {
 	]
 
 	return (
-		<section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 bg-background">
+		<section className="relative overflow-hidden px-4 bg-background pt-28 pb-16 lg:pt-32 lg:pb-24">
 			{/* Background effects */}
 			<div className="absolute inset-0 bg-gradient-subtle" />
 			<div className="absolute inset-0 hero-radial-gradient" />
@@ -27,98 +28,112 @@ export function Hero() {
 			<div className="absolute inset-0 hero-grid-pattern" />
 
 			<div className="container mx-auto relative z-10">
+				{/* Badges - Centered across full width */}
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
-					className="text-center max-w-4xl mx-auto sm:mt-0 mt-[110px]"
+					className="flex flex-wrap items-center justify-center gap-3 mb-10"
 				>
-					{/* Badges */}
-					<div className="flex flex-wrap items-center justify-center gap-3 mb-8">
+					<motion.div
+						initial={{ opacity: 0, scale: 0.9 }}
+						animate={{ opacity: 1, scale: 1 }}
+						transition={{ delay: 0.2 }}
+						className="items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 inline-flex"
+					>
+						<Sparkles className="h-3.5 w-3.5 text-primary" strokeWidth={2.5} />
+						<span className="text-sm font-medium text-primary">{t("badge")}</span>
+					</motion.div>
+
+					<GitHubStars repo={GITHUB_REPO} />
+				</motion.div>
+
+				{/* Two column layout on large screens */}
+				<div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
+					{/* Left column - Content */}
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.8 }}
+						className="text-center lg:text-left"
+					>
+						{/* Main heading */}
+						<motion.h1
+							initial={{ opacity: 0, y: 20 }}
+							animate={{ opacity: 1, y: 0 }}
+							transition={{ delay: 0.3 }}
+							className="font-grotesk text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight"
+						>
+							{t("title")}
+							<br />
+							<span className="text-primary">{t("titleHighlight")}</span>
+						</motion.h1>
+
+						{/* Description */}
+						<motion.p
+							initial={{ opacity: 0, y: 20 }}
+							animate={{ opacity: 1, y: 0 }}
+							transition={{ delay: 0.4 }}
+							className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-xl mx-auto lg:mx-0 font-light"
+						>
+							{t("description")}
+						</motion.p>
+
+						{/* CTAs */}
 						<motion.div
-							initial={{ opacity: 0, scale: 0.9 }}
-							animate={{ opacity: 1, scale: 1 }}
-							transition={{ delay: 0.2 }}
-							className="items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 hidden sm:inline-flex"
+							initial={{ opacity: 0, y: 20 }}
+							animate={{ opacity: 1, y: 0 }}
+							transition={{ delay: 0.5 }}
+							className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
 						>
-							<Sparkles className="h-3.5 w-3.5 text-primary" strokeWidth={2.5} />
-							<span className="text-sm font-medium text-primary">{t("badge")}</span>
-						</motion.div>
-
-						<GitHubStars repo={GITHUB_REPO} />
-					</div>
-
-					{/* Main heading */}
-					<motion.h1
-						initial={{ opacity: 0, y: 20 }}
-						animate={{ opacity: 1, y: 0 }}
-						transition={{ delay: 0.3 }}
-						className="font-grotesk text-5xl md:text-7xl font-bold mb-6 leading-tight"
-					>
-						{t("title")}
-						<br />
-						<span className="text-primary">{t("titleHighlight")}</span>
-					</motion.h1>
-
-					{/* Description */}
-					<motion.p
-						initial={{ opacity: 0, y: 20 }}
-						animate={{ opacity: 1, y: 0 }}
-						transition={{ delay: 0.4 }}
-						className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light"
-					>
-						{t("description")}
-					</motion.p>
-
-					{/* CTAs */}
-					<motion.div
-						initial={{ opacity: 0, y: 20 }}
-						animate={{ opacity: 1, y: 0 }}
-						transition={{ delay: 0.5 }}
-						className="flex flex-col sm:flex-row gap-4 justify-center"
-					>
-						<Button
-							size="lg"
-							className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium group px-8"
-							asChild
-						>
-							<a
-								href="https://github.com/duneal/dokistry"
-								target="_blank"
-								rel="noopener noreferrer"
+							<Button
+								size="lg"
+								className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium group px-8"
+								asChild
 							>
-								<Github className="mr-2 h-5 w-5" />
-								{t("viewOnGithub")}
-								<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-							</a>
-						</Button>
+								<a
+									href="https://github.com/duneal/dokistry"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<Github className="mr-2 h-5 w-5" />
+									{t("viewOnGithub")}
+									<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+								</a>
+							</Button>
 
-						<Button
-							size="lg"
-							variant="outline"
-							className="border-border/50 hover:bg-card dark:hover:text-white font-medium px-8"
-							asChild
-						>
-							<a href="#features">{t("exploreFeatures")}</a>
-						</Button>
+							<Button
+								size="lg"
+								variant="outline"
+								className="border-border/50 hover:bg-card dark:hover:text-white font-medium px-8"
+								asChild
+							>
+								<a href="#features">{t("exploreFeatures")}</a>
+							</Button>
+						</motion.div>
 					</motion.div>
 
-					{/* Stats */}
-					<motion.div
-						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
-						transition={{ delay: 0.7 }}
-						className="mt-16 flex flex-wrap justify-center gap-12"
-					>
-						{stats.map((stat, index) => (
-							<div key={index} className="text-center">
-								<div className="text-3xl font-grotesk font-bold text-primary mb-1">
-									{stat.value}
-								</div>
-								<div className="text-sm text-muted-foreground">{stat.label}</div>
+					{/* Right column - Demo Video */}
+					<div>
+						<VideoPlayer src="/videos/rendu_optimized.mp4" />
+					</div>
+				</div>
+
+				{/* Stats - Centered across full width */}
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 0.7 }}
+					className="mt-16 flex flex-wrap justify-center gap-8 lg:gap-12"
+				>
+					{stats.map((stat, index) => (
+						<div key={index} className="text-center">
+							<div className="text-2xl lg:text-3xl font-grotesk font-bold text-primary mb-1">
+								{stat.value}
 							</div>
-						))}
-					</motion.div>
+							<div className="text-sm text-muted-foreground">{stat.label}</div>
+						</div>
+					))}
 				</motion.div>
 			</div>
 		</section>
